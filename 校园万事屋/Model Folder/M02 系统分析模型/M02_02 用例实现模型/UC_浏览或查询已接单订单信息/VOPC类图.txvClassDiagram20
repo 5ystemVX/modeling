@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhkgjealy9-9p5boo">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="VOPC类图"/>
+		<reference referencedUin="design:node:::-tdsqjukgdu01rl-x3nqrf">
+			<property name="bounds" value="168,166,200,234"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkgeptbrm-etvcl5:-tdsqjukgdu01rl-x3nqrf">
+				<property name="sourceAnchor" value="373,277"/>
+				<property name="targetAnchor" value="509,312"/>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgeptbrm-etvcl5:-tdsqjukgdu01rl-x3nqrf">
+					<property name="bounds" value="383,248,15,28"/>
+				</reference>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgeptbrm-etvcl5:-tdsqjukgdu01rl-x3nqrf">
+					<property name="bounds" value="494,277,15,28"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgedz2cl-l8n6q6">
+			<property name="bounds" value="505,252,200,176"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkgepte8t-u12hfi:-tdsqjukgedz2cl-l8n6q6">
+				<property name="sourceAnchor" value="710,346"/>
+				<property name="targetAnchor" value="820,346"/>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgepte8t-u12hfi:-tdsqjukgedz2cl-l8n6q6">
+					<property name="bounds" value="720,319,13,24"/>
+				</reference>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgepte8t-u12hfi:-tdsqjukgedz2cl-l8n6q6">
+					<property name="bounds" value="797,319,13,24"/>
+				</reference>
+			</reference>
+			<reference referencedUin="design:link:::ieje0rkgjbydem1oc3hu:-tdsqjukgedz2cl-l8n6q6">
+				<property name="sourceAnchor" value="509,309"/>
+				<property name="targetAnchor" value="373,274"/>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgjbydem1oc3hu:-tdsqjukgedz2cl-l8n6q6">
+					<property name="bounds" value="475,269,15,28"/>
+				</reference>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgjbydem1oc3hu:-tdsqjukgedz2cl-l8n6q6">
+					<property name="bounds" value="402,250,15,28"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgdehw53sn4scf">
+			<property name="bounds" value="815,75,200,416"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkgjbxbknd1oaye:-tdsqjukgdehw53sn4scf">
+				<property name="sourceAnchor" value="820,338"/>
+				<property name="targetAnchor" value="710,338"/>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgjbxbknd1oaye:-tdsqjukgdehw53sn4scf">
+					<property name="bounds" value="777,311,13,24"/>
+				</reference>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgjbxbknd1oaye:-tdsqjukgdehw53sn4scf">
+					<property name="bounds" value="740,311,13,24"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::fzscskgjj7ge0-fs3znk">
+			<property name="bounds" value="175,255,200,196"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:link:::ea4ykgjj7ge1-lhnouh:fzscskgjj7ge0-fs3znk">
+				<property name="sourceAnchor" value="380,346"/>
+				<property name="targetAnchor" value="510,346"/>
+				<reference referencedUin="label:supplierCardinality:design:link:::ea4ykgjj7ge1-lhnouh:fzscskgjj7ge0-fs3znk">
+					<property name="bounds" value="487,319,13,24"/>
+				</reference>
+				<reference referencedUin="label:clientCardinality:design:link:::ea4ykgjj7ge1-lhnouh:fzscskgjj7ge0-fs3znk">
+					<property name="bounds" value="390,319,13,24"/>
+				</reference>
+			</reference>
+		</reference>
+	</view>
+</nodeSet>

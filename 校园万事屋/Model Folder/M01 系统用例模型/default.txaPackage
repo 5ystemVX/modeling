@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<node uin="8bho0jkfkmsgy4-tisx2">
+		<property name="$metaclass" value="Actor20"/>
+		<property name="$name" value="用户"/>
+		<link uin="ieje0rkfko8h4b5qja76">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfkmtcvx-pjruen:8krugmkfkmsni0me6px3" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfko8or9fu28ch">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfkmteswr5ju7f:8krugmkfkmsni0me6px3" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfko8sdgxv8bue">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfkmwl3lkq15jh:8krugmkfkmsni0me6px3" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfko8vht-y6gne7">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfkmzbipde7aan:8krugmkfkmsni0me6px3" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfko8yvq-50qh5j">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfkmzu3p-2wkcen:8krugmkfkmsni0me6px3" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfko91mc-xginur">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::myhvkfkp46l5p431j8:8krugmkfkmsni0me6px3" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfko93wgdx5rpw">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfkn0e0c-7nrly:8krugmkfkmsni0me6px3" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfkp1pjr-hgqx4i">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfkow03f78cm53:8krugmkfkoth72e1b4zu" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfkp1rbx-7d7np9">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfkow1yg-jtgvpt:8krugmkfkoth72e1b4zu" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfkp1ulh-a5cmts">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfkow3gc-pftwxo:8krugmkfkoth72e1b4zu" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfkp1x4f-h549uc">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfkotv3dgbr3oi:8krugmkfkoth72e1b4zu" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfkp2hfqb6b0rx">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfko5d1jxz2laz:8krugmkfko3yih-kykaou" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfkp2jaf-tmd5ty">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfko52bef3zymy:8krugmkfko3yih-kykaou" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfkp2mhj-r53mnl">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfko4mwnk4e6r6:8krugmkfko3yih-kykaou" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfkp2oxp-g06oqo">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfko4a9jq38z8o:8krugmkfko3yih-kykaou" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfkp6g1c-44ev5q">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfkooeynkyrcgm:8krugmkfkoo3zpjqs5g6" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfkp6io8a3e48i">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfkor1nxdk1msu:8krugmkfkoo3zpjqs5g6" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfouf8ieef6j1l">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfota9f0ze79je:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfouf9wbpo2253">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfotaaei-yyiz8c:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfoufb53coa604">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfotad2cw84nyf:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfoufdd6-s6oct2">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfotdbvp6rvpdd:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfoufekd-im1n2f">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfotg6hz98jrwq:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfoug01du9xr2u">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfotxkokoa6ujf:8krugmkfotxjb4-h87gpb" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfoug170-kdzh7r">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfotxzoudvo2ln:8krugmkfotxjb4-h87gpb" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfoug28zmpo6l">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfotymyg1uxe7k:8krugmkfotxjb4-h87gpb" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfoug3ok-7297lb">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfotz2o5u77lpg:8krugmkfotxjb4-h87gpb" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfoug55vw5mell">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfotzaujjlkkx5:8krugmkfotxjb4-h87gpb" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfouhbev-cpa1nt">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfoszike-98sqhi:8krugmkfoszcl2-a1yzfs" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfouhcrn-gdyakv">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfoszjywqq50uo:8krugmkfoszcl2-a1yzfs" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfouhdxg-z8bpq8">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfoszlxwnl7oa1:8krugmkfoszcl2-a1yzfs" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfouheyh-km9d45">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfot0hft-paxejk:8krugmkfoszcl2-a1yzfs" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfouhg45gayrpa">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfosznfl-94juqr:8krugmkfoszcl2-a1yzfs" role="Supplier"></participant>
+		</link>
+	</node>
+	<node uin="8krugmkfkmsni0me6px3">
+		<property name="$metaclass" value="UseCaseClassifier20"/>
+		<property name="$name" value="委托订单系统"/>
+		<node uin="gj7tthkfkmxak36f4jjx">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="编辑委托内容"/>
+			<link uin="ieje0rkfkmy0yi-oulo26">
+				<property name="$metaclass" value="Include20"/>
+				<participant referencedUin="design:node:::gj7tthkfkmxak36f4jjx:8krugmkfkmsni0me6px3" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfkmtcvx-pjruen:8krugmkfkmsni0me6px3" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkfkmy8jenn5xxw">
+				<property name="$metaclass" value="Include20"/>
+				<participant referencedUin="design:node:::gj7tthkfkmxak36f4jjx:8krugmkfkmsni0me6px3" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfkmteswr5ju7f:8krugmkfkmsni0me6px3" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfkmtcvx-pjruen">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="发布委托"/>
+		</node>
+		<node uin="gj7tthkfkmteswr5ju7f">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="修改已有委托"/>
+		</node>
+		<node uin="gj7tthkfkmwl3lkq15jh">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="删除/撤回已有委托"/>
+		</node>
+		<node uin="gj7tthkfkmylzfp1c479">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="保存草稿"/>
+			<link uin="ieje0rkfkmyzes-649w1b">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfkmylzfp1c479:8krugmkfkmsni0me6px3" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfkmxak36f4jjx:8krugmkfkmsni0me6px3" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfkmzbipde7aan">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="按条件搜索委托"/>
+		</node>
+		<node uin="gj7tthkfkmzu3p-2wkcen">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="接取委托"/>
+		</node>
+		<node uin="gj7tthkfkn0e0c-7nrly">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="申请中止委托"/>
+		</node>
+		<node uin="gj7tthkfko68karfr34h">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="审核委托内容"/>
+		</node>
+		<node uin="gj7tthkfko6jkw-2q1kvl">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="标注/清理过期委托"/>
+		</node>
+		<node uin="gj7tthkfko9b6b271ltu">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="审核中止申请"/>
+			<link uin="ieje0rkfkoaohh-jhfcgl">
+				<property name="$metaclass" value="Dependency20"/>
+				<participant referencedUin="design:node:::gj7tthkfko9b6b271ltu:8krugmkfkmsni0me6px3" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfkn0e0c-7nrly:8krugmkfkmsni0me6px3" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="myhvkfkp46l5p431j8">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="确认完成委托"/>
+		</node>
+	</node>
+	<node uin="8krugmkfko3yih-kykaou">
+		<property name="$metaclass" value="UseCaseClassifier20"/>
+		<property name="$name" value="金币系统"/>
+		<node uin="gj7tthkfko4a9jq38z8o">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="金币充值"/>
+		</node>
+		<node uin="gj7tthkfko4mwnk4e6r6">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="金币提现"/>
+		</node>
+		<node uin="gj7tthkfko52bef3zymy">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="查询金币余额"/>
+		</node>
+		<node uin="gj7tthkfko5d1jxz2laz">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="查询金币详单"/>
+		</node>
+		<node uin="gj7tthkfkom7mfb0t7s3">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="账户间金币转移"/>
+			<link uin="ieje0rkfkomusi7nnt73">
+				<property name="$metaclass" value="Dependency20"/>
+				<participant referencedUin="design:node:::gj7tthkfkom7mfb0t7s3:8krugmkfko3yih-kykaou" role="Client"></participant>
+				<participant referencedUin="design:node:::myhvkfkp46l5p431j8:8krugmkfkmsni0me6px3" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+	<node uin="8bho0jkfko79qi-orsl81">
+		<property name="$metaclass" value="Actor20"/>
+		<property name="$name" value="时间"/>
+		<link uin="ieje0rkfko8cax-jat62h">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfko79qi-orsl81" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfko6jkw-2q1kvl:8krugmkfkmsni0me6px3" role="Supplier"></participant>
+		</link>
+	</node>
+	<node uin="8bho0jkfkog04s-rd1vnv">
+		<property name="$metaclass" value="Actor20"/>
+		<property name="$name" value="管理员"/>
+		<link uin="ieje0rkfkoghob-hk5lsz">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkog04s-rd1vnv" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfko68karfr34h:8krugmkfkmsni0me6px3" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfkoy2zx-rygv45">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkog04s-rd1vnv" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfko9b6b271ltu:8krugmkfkmsni0me6px3" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfkp6nhm-x6iyem">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkog04s-rd1vnv" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfkoyu21-qsn4ah:8krugmkfkoo3zpjqs5g6" role="Supplier"></participant>
+		</link>
+	</node>
+	<node uin="8krugmkfkoo3zpjqs5g6">
+		<property name="$metaclass" value="UseCaseClassifier20"/>
+		<property name="$name" value="账号系统"/>
+		<node uin="gj7tthkfkooc7x-nbepoa">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="注册账号"/>
+		</node>
+		<node uin="gj7tthkfkoodtb24hrey">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="注销账号"/>
+			<link uin="ieje0rkfkp6ba0eouv04">
+				<property name="$metaclass" value="KernelAssociation20"/>
+				<participant referencedUin="design:node:::gj7tthkfkoodtb24hrey:8krugmkfkoo3zpjqs5g6" role="Client"></participant>
+				<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfkooeynkyrcgm">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="登录账号"/>
+		</node>
+		<node uin="gj7tthkfkoqluw-doa3wk">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="找回密码"/>
+			<link uin="ieje0rkfkpokcg649lbw">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfkoqluw-doa3wk:8krugmkfkoo3zpjqs5g6" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfkooeynkyrcgm:8krugmkfkoo3zpjqs5g6" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfkor1nxdk1msu">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="查看/管理账号信息"/>
+		</node>
+		<node uin="gj7tthkfkorq98haj6s8">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="修改头像"/>
+			<link uin="ieje0rkfkp0q0c78z6h2">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfkorq98haj6s8:8krugmkfkoo3zpjqs5g6" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfkor1nxdk1msu:8krugmkfkoo3zpjqs5g6" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfkors4frk9ppx">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="修改密码"/>
+			<link uin="ieje0rkfkp0yhfiev625">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfkors4frk9ppx:8krugmkfkoo3zpjqs5g6" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfkor1nxdk1msu:8krugmkfkoo3zpjqs5g6" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfkortjc-eucme4">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="绑定/解绑其他平台账号"/>
+			<link uin="ieje0rkfkp12tww0u8nj">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfkortjc-eucme4:8krugmkfkoo3zpjqs5g6" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfkor1nxdk1msu:8krugmkfkoo3zpjqs5g6" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfkorxj41vnwgk">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="修改个人资料"/>
+			<link uin="ieje0rkfkp0vv9-h3j4gg">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfkorxj41vnwgk:8krugmkfkoo3zpjqs5g6" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfkor1nxdk1msu:8krugmkfkoo3zpjqs5g6" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfkoyu21-qsn4ah">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="处理异常账号"/>
+		</node>
+	</node>
+	<node uin="8krugmkfkoth72e1b4zu">
+		<property name="$metaclass" value="UseCaseClassifier20"/>
+		<property name="$name" value="聊天系统"/>
+		<node uin="gj7tthkfkotv3dgbr3oi">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="进行聊天"/>
+		</node>
+		<node uin="gj7tthkfkou0w5-83h53x">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="发送/接收文字，表情"/>
+			<link uin="ieje0rkfkp218p-hh7mtf">
+				<property name="$metaclass" value="Include20"/>
+				<participant referencedUin="design:node:::gj7tthkfkou0w5-83h53x:8krugmkfkoth72e1b4zu" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfkotv3dgbr3oi:8krugmkfkoth72e1b4zu" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfkou2lo-udrc5g">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="发送/接收图片"/>
+			<link uin="ieje0rkfkp26mm9bkscw">
+				<property name="$metaclass" value="Include20"/>
+				<participant referencedUin="design:node:::gj7tthkfkou2lo-udrc5g:8krugmkfkoth72e1b4zu" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfkotv3dgbr3oi:8krugmkfkoth72e1b4zu" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfkou4icv0whpi">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="查看聊天历史"/>
+			<link uin="ieje0rkfkp28vz-2isgod">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfkou4icv0whpi:8krugmkfkoth72e1b4zu" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfkotv3dgbr3oi:8krugmkfkoth72e1b4zu" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfkow03f78cm53">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="添加好友"/>
+		</node>
+		<node uin="gj7tthkfkow1yg-jtgvpt">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="删除好友"/>
+		</node>
+		<node uin="gj7tthkfkow3gc-pftwxo">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="查看好友列表"/>
+		</node>
+	</node>
+	<node uin="8bho0jkfkp8fifchdkvx">
+		<property name="$metaclass" value="Actor20"/>
+		<property name="$name" value="游客"/>
+		<link uin="ieje0rkfkp8mbxbjnv9i">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkp8fifchdkvx" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfkooc7x-nbepoa:8krugmkfkoo3zpjqs5g6" role="Supplier"></participant>
+		</link>
+	</node>
+	<node uin="8bho0jkfosxukp-yk1vzs">
+		<property name="$metaclass" value="Actor20"/>
+		<property name="$name" value="平台管理员"/>
+		<link uin="ieje0rkfot606d-gxekwn">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfosxukp-yk1vzs" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfoszike-98sqhi:8krugmkfoszcl2-a1yzfs" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfot68py-zamlzo">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfosxukp-yk1vzs" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfoszjywqq50uo:8krugmkfoszcl2-a1yzfs" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfot6coq-br8rbh">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfosxukp-yk1vzs" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfot0hft-paxejk:8krugmkfoszcl2-a1yzfs" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfougj1miw4758">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfosxukp-yk1vzs" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfou3r3gjxkcup:8krugmkfou3gww-6zknrj" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfougl84bjvunj">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfosxukp-yk1vzs" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfou3s4m-n54ssj:8krugmkfou3gww-6zknrj" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfougn89luwz9e">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfosxukp-yk1vzs" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfou3t5uf468zd:8krugmkfou3gww-6zknrj" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkgjcujr5z86z6z">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfosxukp-yk1vzs" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfou3r3gjxkcup:8krugmkfou3gww-6zknrj" role="Supplier"></participant>
+		</link>
+	</node>
+	<node uin="8krugmkfoszcl2-a1yzfs">
+		<property name="$metaclass" value="UseCaseClassifier20"/>
+		<property name="$name" value="校园万事屋"/>
+		<node uin="gj7tthkfoszike-98sqhi">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="登录"/>
+		</node>
+		<node uin="gj7tthkfoszjywqq50uo">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="修改密码"/>
+		</node>
+		<node uin="gj7tthkfoszlxwnl7oa1">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="任务委托业务（子系统）"/>
+		</node>
+		<node uin="gj7tthkfosznfl-94juqr">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="   个人中心（子系统）"/>
+		</node>
+		<node uin="gj7tthkfot0hft-paxejk">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="  平台管理 （子系统）"/>
+		</node>
+	</node>
+	<node uin="8krugmkfot9qgq-ub0biz">
+		<property name="$metaclass" value="UseCaseClassifier20"/>
+		<property name="$name" value="任务委托业务"/>
+		<node uin="gj7tthkfota9f0ze79je">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="注册"/>
+		</node>
+		<node uin="gj7tthkfotaaei-yyiz8c">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="发布任务"/>
+		</node>
+		<node uin="gj7tthkfotad2cw84nyf">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="浏览本人发布的任务订单"/>
+		</node>
+		<node uin="gj7tthkfotbk4c-o81n0a">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="编辑任务明细信息"/>
+			<link uin="ieje0rkfotkvaze728rp">
+				<property name="$metaclass" value="Include20"/>
+				<participant referencedUin="design:node:::gj7tthkfotbk4c-o81n0a:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfotaaei-yyiz8c:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkfotkzqhu3m7uq">
+				<property name="$metaclass" value="Include20"/>
+				<participant referencedUin="design:node:::gj7tthkfotbk4c-o81n0a:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfotc805-gix9iq:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfotc0tmnkfepi">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="取消任务"/>
+			<link uin="ieje0rkfotl1uv5srmje">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfotc0tmnkfepi:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfotad2cw84nyf:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfotc805-gix9iq">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="修改任务内容"/>
+			<link uin="ieje0rkfotpuyz-2r1pul">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfotc805-gix9iq:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::bkbz7kfotj7p08goj58:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfotcedz-ezgdo3">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="查看指定订单的明细信息"/>
+			<link uin="ieje0rkfotlygyrlci9c">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfotcedz-ezgdo3:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfotg6hz98jrwq:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkfuoahuugs6o0p">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfotcedz-ezgdo3:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfotdbvp6rvpdd:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfotcutl-14qk0o">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="确认完成"/>
+			<link uin="ieje0rkfotl9ng-vpauh3">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfotcutl-14qk0o:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfotad2cw84nyf:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfotd1ud-7j1nft">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="评价接单人"/>
+			<link uin="ieje0rkfotl7br-a44nod">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfotd1ud-7j1nft:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfotad2cw84nyf:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfotdbvp6rvpdd">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="浏览/查询待接单的任务"/>
+		</node>
+		<node uin="gj7tthkfotg6hz98jrwq">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="浏览/查询本人承接的订单"/>
+		</node>
+		<node uin="gj7tthkfothaze-akz4dx">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="与另一方线上沟通"/>
+			<link uin="ieje0rkfotlgyz22tipe">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfothaze-akz4dx:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::bkbz7kfotj7p08goj58:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkfotlp80ofknhj">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfothaze-akz4dx:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfotcedz-ezgdo3:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfotiddfyl2cqp">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="标记任务开始执行"/>
+			<link uin="ieje0rkfotlux55xt607">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfotiddfyl2cqp:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfotg6hz98jrwq:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfotilsk-8yjd3f">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="承接订单"/>
+			<link uin="ieje0rkfotlrtd-ma5bp6">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfotilsk-8yjd3f:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfotcedz-ezgdo3:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="bkbz7kfotj7p08goj58">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="查看指定订单的明细信息"/>
+			<link uin="ieje0rkfotlj1l-kt2asu">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::bkbz7kfotj7p08goj58:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfotad2cw84nyf:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfotk0qcewsj4l">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="保存草稿"/>
+			<link uin="ieje0rkfotqbkd-3hvfnh">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfotk0qcewsj4l:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfotbk4c-o81n0a:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfotlzsd-n1hl91">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="放弃任务"/>
+			<link uin="ieje0rkfotm815-l4xdgd">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfotlzsd-n1hl91:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfotg6hz98jrwq:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfoto4gf-jz4crh">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="申请投诉该订单"/>
+			<link uin="ieje0rkfotqlt9-k39rxu">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfoto4gf-jz4crh:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::bkbz7kfotj7p08goj58:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkfotqrvw-vsa7an">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfoto4gf-jz4crh:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfotcedz-ezgdo3:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+	<node uin="8bho0jkfotx2sd-8ehd0s">
+		<property name="$metaclass" value="Actor20"/>
+		<property name="$name" value="第三方支付系统"/>
+		<link uin="ieje0rkfotzyqyg0aq67">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfotx2sd-8ehd0s" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfotz2o5u77lpg:8krugmkfotxjb4-h87gpb" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfou00ddnabc7k">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfotx2sd-8ehd0s" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfotzaujjlkkx5:8krugmkfotxjb4-h87gpb" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkfouhhh6-tw4iy2">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfotx2sd-8ehd0s" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfosznfl-94juqr:8krugmkfoszcl2-a1yzfs" role="Supplier"></participant>
+		</link>
+	</node>
+	<node uin="8krugmkfotxjb4-h87gpb">
+		<property name="$metaclass" value="UseCaseClassifier20"/>
+		<property name="$name" value="个人中心"/>
+		<node uin="gj7tthkfotxkokoa6ujf">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="设置个人账户信息"/>
+		</node>
+		<node uin="gj7tthkfotxzoudvo2ln">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="查看本人信用评级及评级记录"/>
+		</node>
+		<node uin="gj7tthkfotymyg1uxe7k">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="查看本人金币余额及收支记录"/>
+		</node>
+		<node uin="gj7tthkfotz2o5u77lpg">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="金币充值"/>
+		</node>
+		<node uin="gj7tthkfotzaujjlkkx5">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="金币提现"/>
+		</node>
+	</node>
+	<node uin="8krugmkfou3gww-6zknrj">
+		<property name="$metaclass" value="UseCaseClassifier20"/>
+		<property name="$name" value="平台管理"/>
+		<node uin="gj7tthkfou3r3gjxkcup">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="浏览/查询用户信息"/>
+		</node>
+		<node uin="gj7tthkfou3s4m-n54ssj">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="浏览/查询平台的金币交易记录"/>
+		</node>
+		<node uin="gj7tthkfou3t5uf468zd">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="浏览/查询任务订单信息"/>
+		</node>
+		<node uin="gj7tthkfou3us1-ptp3jm">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="查看指定用户账户详细信息"/>
+			<link uin="ieje0rkfouabpo-mjwcm6">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfou3us1-ptp3jm:8krugmkfou3gww-6zknrj" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfou3r3gjxkcup:8krugmkfou3gww-6zknrj" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfou3z46-i7u8gf">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="封禁/恢复指定用户账户"/>
+			<link uin="ieje0rkfouagep-l4s3cz">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfou3z46-i7u8gf:8krugmkfou3gww-6zknrj" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfou3r3gjxkcup:8krugmkfou3gww-6zknrj" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfou40c3-pcvk8o">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="查看指定用户的信用评级和评级记录"/>
+			<link uin="ieje0rkfouad3i-jgwp41">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfou40c3-pcvk8o:8krugmkfou3gww-6zknrj" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfou3r3gjxkcup:8krugmkfou3gww-6zknrj" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfou42ot-yksjs9">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="查看指定用户的金币收支记录"/>
+			<link uin="ieje0rkfouaeq75c8gae">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfou42ot-yksjs9:8krugmkfou3gww-6zknrj" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfou3r3gjxkcup:8krugmkfou3gww-6zknrj" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfou45ijx7thjw">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="暂停/恢复指定任务订单"/>
+			<link uin="ieje0rkfouak3i-dign5y">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfou45ijx7thjw:8krugmkfou3gww-6zknrj" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfou3t5uf468zd:8krugmkfou3gww-6zknrj" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfou4842khcljw">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="查看指定订单的详细信息"/>
+			<link uin="ieje0rkfouaiv0-v63xve">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfou4842khcljw:8krugmkfou3gww-6zknrj" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfou3t5uf468zd:8krugmkfou3gww-6zknrj" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkfou49ej-ed6g7u">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="终止指定任务订单"/>
+			<link uin="ieje0rkfoualgwmi01xl">
+				<property name="$metaclass" value="Extend20"/>
+				<participant referencedUin="design:node:::gj7tthkfou49ej-ed6g7u:8krugmkfou3gww-6zknrj" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfou3t5uf468zd:8krugmkfou3gww-6zknrj" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+</nodeSet>

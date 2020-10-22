@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhkfkmm4sm-3pzfho">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="visibility" value="public"/>
+		<node uin="156bx8kgdq1oi1-5pzakk">
+			<property name="$metaclass" value="Guide"/>
+			<property name="$name" value="Guide1"/>
+			<property name="position" value="296"/>
+			<property name="horizontal" value="true"/>
+		</node>
+		<reference referencedUin="design:view:::V1hexuhkfkmmqvu-yne06e">
+			<property name="bounds" value="35,15,236,167"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="collapsedCompartments" value=""/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkfupjnv9f85l35">
+			<property name="bounds" value="55,235,287,227"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="collapsedCompartments" value="Class20"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgdcu0js-g3bp22">
+			<property name="bounds" value="290,-3,176,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

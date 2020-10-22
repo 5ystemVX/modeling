@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhkgjc3kxq-arktk4">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="VOPC"/>
+		<reference referencedUin="design:node:::-tdsqjukgjb4q1k-ujwxvx">
+			<property name="bounds" value="539,227,200,136"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkgjbcejef9yiub:-tdsqjukgjb4q1k-ujwxvx">
+				<property name="sourceAnchor" value="744,321"/>
+				<property name="targetAnchor" value="944,321"/>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgjbcejef9yiub:-tdsqjukgjb4q1k-ujwxvx">
+					<property name="bounds" value="921,294,13,24"/>
+				</reference>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgjbcejef9yiub:-tdsqjukgjb4q1k-ujwxvx">
+					<property name="bounds" value="754,294,13,24"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgjazyot93webj">
+			<property name="bounds" value="939,269,200,176"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+		<reference referencedUin="design:node:::bhkfkkgjj7gec-dti3zl">
+			<property name="bounds" value="143,179,200,96"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:link:::5y3c1kgjj7gec-c5jbpy:bhkfkkgjj7gec-dti3zl">
+				<property name="sourceAnchor" value="348,256"/>
+				<property name="targetAnchor" value="544,256"/>
+				<property name="bendpoints" value=""/>
+				<reference referencedUin="label:clientCardinality:design:link:::5y3c1kgjj7gec-c5jbpy:bhkfkkgjj7gec-dti3zl">
+					<property name="bounds" value="358,229,13,24"/>
+				</reference>
+				<reference referencedUin="label:supplierCardinality:design:link:::5y3c1kgjj7gec-c5jbpy:bhkfkkgjj7gec-dti3zl">
+					<property name="bounds" value="521,229,13,24"/>
+				</reference>
+			</reference>
+		</reference>
+	</view>
+</nodeSet>
