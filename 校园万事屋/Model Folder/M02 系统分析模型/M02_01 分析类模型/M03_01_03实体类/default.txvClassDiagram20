@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhkgdd328g56uf75">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value=""/>
+		<reference referencedUin="design:node:::-tdsqjukgdehw53sn4scf">
+			<property name="bounds" value="683,47,218,375"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkgeppetw-wd2i3y:-tdsqjukgdehw53sn4scf">
+				<property name="sourceAnchor" value="688,119"/>
+				<property name="targetAnchor" value="312,119"/>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgeppetw-wd2i3y:-tdsqjukgdehw53sn4scf">
+					<property name="bounds" value="665,92,13,24"/>
+				</reference>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgeppetw-wd2i3y:-tdsqjukgdehw53sn4scf">
+					<property name="bounds" value="322,92,13,24"/>
+				</reference>
+			</reference>
+			<reference referencedUin="design:link:::ieje0rkgephy0l-9tm9zt:-tdsqjukgdehw53sn4scf">
+				<property name="sourceAnchor" value="688,272"/>
+				<property name="targetAnchor" value="600,272"/>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgephy0l-9tm9zt:-tdsqjukgdehw53sn4scf">
+					<property name="bounds" value="610,245,13,24"/>
+				</reference>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgephy0l-9tm9zt:-tdsqjukgdehw53sn4scf">
+					<property name="bounds" value="665,245,13,24"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgdeibmkhvl24u">
+			<property name="bounds" value="35,47,272,121"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkgjczi0wimqjr9:-tdsqjukgdeibmkhvl24u">
+				<property name="sourceAnchor" value="200,173"/>
+				<property name="targetAnchor" value="200,235"/>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgjczi0wimqjr9:-tdsqjukgdeibmkhvl24u">
+					<property name="bounds" value="313,149,13,24"/>
+				</reference>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgjczi0wimqjr9:-tdsqjukgdeibmkhvl24u">
+					<property name="bounds" value="203,201,13,24"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgjazyot93webj">
+			<property name="bounds" value="935,351,201,244"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgdejybf-yd0aim">
+			<property name="bounds" value="395,195,200,336"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkgjeq7gb-ral58l:-tdsqjukgdejybf-yd0aim">
+				<property name="sourceAnchor" value="400,498"/>
+				<property name="targetAnchor" value="278,498"/>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgjeq7gb-ral58l:-tdsqjukgdejybf-yd0aim">
+					<property name="bounds" value="288,471,13,24"/>
+				</reference>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgjeq7gb-ral58l:-tdsqjukgdejybf-yd0aim">
+					<property name="bounds" value="377,471,13,24"/>
+				</reference>
+			</reference>
+			<reference referencedUin="design:link:::ieje0rkgjeqa0i-sxjr8n:-tdsqjukgdejybf-yd0aim">
+				<property name="sourceAnchor" value="403,200"/>
+				<property name="targetAnchor" value="403,500"/>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgjeqa0i-sxjr8n:-tdsqjukgdejybf-yd0aim">
+					<property name="bounds" value="406,188,13,24"/>
+				</reference>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgjeqa0i-sxjr8n:-tdsqjukgdejybf-yd0aim">
+					<property name="bounds" value="406,488,13,24"/>
+				</reference>
+			</reference>
+			<reference referencedUin="design:link:::ieje0rkgjg7o8y-q3azb:-tdsqjukgdejybf-yd0aim">
+				<property name="sourceAnchor" value="600,518"/>
+				<property name="targetAnchor" value="940,518"/>
+				<property name="bendpoints" value=""/>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgjg7o8y-q3azb:-tdsqjukgdejybf-yd0aim">
+					<property name="bounds" value="917,491,13,24"/>
+				</reference>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgjg7o8y-q3azb:-tdsqjukgdejybf-yd0aim">
+					<property name="bounds" value="610,491,13,24"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgjbtoqt-59nz2m">
+			<property name="bounds" value="395,495,198,96"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgjbrzyso65ds">
+			<property name="bounds" value="75,455,198,116"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgjfrz0u-7t7x6l">
+			<property name="bounds" value="935,55,200,116"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgjcy32g-hj20km">
+			<property name="bounds" value="71,230,200,136"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

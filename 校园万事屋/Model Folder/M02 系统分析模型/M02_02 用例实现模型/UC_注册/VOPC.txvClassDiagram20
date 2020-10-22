@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhkgjc11ne-9pp9mw">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="VOPC"/>
+		<reference referencedUin="design:node:::-tdsqjukgjb4q1k-ujwxvx">
+			<property name="bounds" value="535,237,200,136"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkgjbcejef9yiub:-tdsqjukgjb4q1k-ujwxvx">
+				<property name="sourceAnchor" value="740,300"/>
+				<property name="targetAnchor" value="840,300"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgjazyot93webj">
+			<property name="bounds" value="835,227,200,176"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+		<reference referencedUin="design:node:::iod0qkgjj7geb6gcrg7">
+			<property name="bounds" value="210,237,200,96"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:link:::17yyckgjj7geb-525u1p:iod0qkgjj7geb6gcrg7">
+				<property name="sourceAnchor" value="415,311"/>
+				<property name="targetAnchor" value="540,311"/>
+			</reference>
+		</reference>
+	</view>
+</nodeSet>

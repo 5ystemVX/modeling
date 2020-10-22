@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhkfkmmqvu-yne06e">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<reference referencedUin="design:view:::V-jr6xbakfkmnt7s3ki3ut">
+			<property name="bounds" value="575,35,250,230"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V-jr6xbakfosxqv7e3umuz">
+			<property name="bounds" value="15,35,205,150"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V-jr6xbakfot8p10-dx7tpl">
+			<property name="bounds" value="15,315,250,110"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkfotuboq-mwr5n9:V-jr6xbakfot8p10-dx7tpl">
+				<property name="sourceAnchor" value="370,307"/>
+				<property name="targetAnchor" value="404,204"/>
+				<property name="bendpoints" value=""/>
+			</reference>
+			<reference referencedUin="design:link:::ieje0rkfoud8ylcefubx:V-jr6xbakfot8p10-dx7tpl">
+				<property name="sourceAnchor" value="172,320"/>
+				<property name="targetAnchor" value="172,190"/>
+			</reference>
+		</reference>
+		<reference referencedUin="design:view:::V-jr6xbakfotwaet1aj1wu">
+			<property name="bounds" value="295,215,250,130"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkfuptxf49yxwys:V-jr6xbakfotwaet1aj1wu">
+				<property name="sourceAnchor" value="309,220"/>
+				<property name="targetAnchor" value="225,172"/>
+			</reference>
+		</reference>
+		<reference referencedUin="design:view:::V-jr6xbakfou2gdo-6s5byl">
+			<property name="bounds" value="260,35,250,110"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="collapsedCompartments" value=""/>
+			<reference referencedUin="design:link:::ieje0rkfuptskn-24glek:V-jr6xbakfou2gdo-6s5byl">
+				<property name="sourceAnchor" value="265,95"/>
+				<property name="targetAnchor" value="225,95"/>
+				<property name="bendpoints" value=""/>
+			</reference>
+		</reference>
+	</view>
+</nodeSet>

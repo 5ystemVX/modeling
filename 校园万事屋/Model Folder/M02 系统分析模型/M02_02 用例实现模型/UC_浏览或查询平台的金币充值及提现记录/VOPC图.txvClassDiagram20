@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhkgky9ctr-4seeyh">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="VOPC图"/>
+		<reference referencedUin="design:node:::-tdsqjukgiu158hyfotni">
+			<property name="bounds" value="195,215,200,136"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkgkydoaydis2jp:-tdsqjukgiu158hyfotni">
+				<property name="sourceAnchor" value="400,283"/>
+				<property name="targetAnchor" value="900,283"/>
+				<property name="bendpoints" value=""/>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgkydoaydis2jp:-tdsqjukgiu158hyfotni">
+					<property name="bounds" value="877,256,13,24"/>
+				</reference>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgkydoaydis2jp:-tdsqjukgiu158hyfotni">
+					<property name="bounds" value="410,256,13,24"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgjcy32g-hj20km">
+			<property name="bounds" value="895,205,200,136"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

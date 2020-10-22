@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhkgky7jy0-5a7n45">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="design:view:::Vam8ynkkgky8qvt-pax2r8">
+			<property name="bounds" value="5,185,356,70"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="collapsedCompartments" value="subelements"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgky9ctr-4seeyh">
+			<property name="bounds" value="5,5,137,70"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="collapsedCompartments" value="subelements"/>
+		</reference>
+	</view>
+</nodeSet>
