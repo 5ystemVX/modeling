@@ -223,6 +223,10 @@
 			<property name="$metaclass" value="Operation20"/>
 			<property name="$name" value="更新订单内容"/>
 		</node>
+		<node uin="tq87glkgstg5f922v373">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="确认发布"/>
+		</node>
 	</node>
 	<node uin="-tdsqjukgjb4q1k-ujwxvx">
 		<property name="$metaclass" value="Class20"/>

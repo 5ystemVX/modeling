@@ -23,7 +23,7 @@
 			<property name="collapsedCompartments" value="Class20"/>
 		</reference>
 		<reference referencedUin="design:view:::V1hexuhkgdcu0js-g3bp22">
-			<property name="bounds" value="290,-3,176,107"/>
+			<property name="bounds" value="290,-3,180,107"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 	</view>

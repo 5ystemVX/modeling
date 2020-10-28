@@ -17,10 +17,10 @@
 				<property name="$metaclass" value="SD20_ExecutionSpecification"/>
 				<property name="$name" value="SD20_ExecutionSpecification2"/>
 			</node>
-			<link uin="ieje0rkgjlle7e-k2yd8">
+			<link uin="ieje0rkgstc654-bjnl58">
 				<property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
 				<participant referencedUin="design:node:::-y8nsowkgemeosy80ybbs:-yrgd8ekgeki1ez-ao75ao" role="Client"></participant>
-				<participant referencedUin="design:node:::-tdsqjukgdejybf-yd0aim" role="Supplier"></participant>
+				<participant referencedUin="design:node:::-tdsqjukgjbtoqt-59nz2m" role="Supplier"></participant>
 			</link>
 		</node>
 		<node uin="-y8nsowkgemch0gvqndjs">

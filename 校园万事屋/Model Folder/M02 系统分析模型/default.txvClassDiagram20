@@ -7,11 +7,11 @@
 		<property name="$metaclass" value="ClassDiagram20"/>
 		<property name="__options" value="option.nlayout.recursive=true"/>
 		<reference referencedUin="design:view:::V1hexuhkgdcwgwa-xg41m1">
-			<property name="bounds" value="246,5,156,127"/>
+			<property name="bounds" value="375,5,156,127"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="design:view:::V1hexuhkgdd1q5kvsr7y8">
-			<property name="bounds" value="5,5,221,327"/>
+			<property name="bounds" value="5,5,311,547"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 	</view>

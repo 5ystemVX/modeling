@@ -9,11 +9,11 @@
 		<property name="$name" value="浏览或查询已接单订单信息具体场景"/>
 		<reference referencedUin="design:node:::-yrgd8ekgjea379-dd81iz">
 			<property name="$shortcutReference" value="true"/>
-			<property name="bounds" value="35,-165,1191,671"/>
+			<property name="bounds" value="115,-165,1191,671"/>
 			<property name="location_set_by_user" value="true"/>
 			<property name="bounds_setted_by_user" value="true"/>
 			<reference referencedUin="design:node:::-y8nsowkgjekn6kym4zh6:-yrgd8ekgjea379-dd81iz">
-				<property name="bounds" value="357,5,60,524"/>
+				<property name="bounds" value="535,5,60,512"/>
 				<property name="location_set_by_user" value="true"/>
 				<property name="bounds_setted_by_user" value="true"/>
 				<reference referencedUin="design:node:::1oo6jkgkpw88fg9uhnu:-y8nsowkgjekn6kym4zh6:-yrgd8ekgjea379-dd81iz">
@@ -21,20 +21,21 @@
 				</reference>
 			</reference>
 			<reference referencedUin="design:node:::-y8nsowkgkptk4tk7375z:-yrgd8ekgjea379-dd81iz">
-				<property name="bounds" value="75,5,114,524"/>
+				<property name="bounds" value="75,5,114,512"/>
 				<property name="location_set_by_user" value="true"/>
 				<reference referencedUin="design:node:::l2gqtvkgkpvs5121vew0:-y8nsowkgkptk4tk7375z:-yrgd8ekgjea379-dd81iz">
-					<property name="bounds" value="47,54,20,66"/>
+					<property name="bounds" value="47,42,20,78"/>
 					<property name="location_set_by_user" value="true"/>
 					<property name="foreground_color" value="250,250,250"/>
 					<property name="background_color" value="240,240,240"/>
 					<reference referencedUin="sd20_message_container:design:node:::l2gqtvkgkpvs5121vew0:-y8nsowkgkptk4tk7375z:-yrgd8ekgjea379-dd81iz">
+						<property name="bounds" value="0,0,0,0"/>
 						<reference referencedUin="sd20_message|1|call|81(design:node:::l2gqtvkgkpvs5121vew0:-y8nsowkgkptk4tk7375z:-yrgd8ekgjea379-dd81iz)">
-							<property name="sourceAnchor" value="187,-14"/>
-							<property name="targetAnchor" value="308,-14"/>
+							<property name="sourceAnchor" value="267,-26"/>
+							<property name="targetAnchor" value="474,-26"/>
 							<property name="location_set_by_user" value="true"/>
 							<reference referencedUin="sd20_message_label:sd20_message|1|call|81(design:node:::l2gqtvkgkpvs5121vew0:-y8nsowkgkptk4tk7375z:-yrgd8ekgjea379-dd81iz)">
-								<property name="bounds" value="0,0,0,0"/>
+								<property name="bounds" value="267,-46,196,20"/>
 							</reference>
 						</reference>
 					</reference>
@@ -45,14 +46,15 @@
 					<property name="foreground_color" value="250,250,250"/>
 					<property name="background_color" value="240,240,240"/>
 					<reference referencedUin="sd20_message_container:design:node:::l2gqtvkgkpvxz7m449h:-y8nsowkgkptk4tk7375z:-yrgd8ekgjea379-dd81iz">
+						<property name="bounds" value="0,0,0,0"/>
 						<reference referencedUin="sd20_message|1|call|80(design:node:::l2gqtvkgkpvxz7m449h:-y8nsowkgkptk4tk7375z:-yrgd8ekgjea379-dd81iz)">
-							<property name="sourceAnchor" value="187,96"/>
-							<property name="targetAnchor" value="187,140"/>
+							<property name="sourceAnchor" value="267,96"/>
+							<property name="targetAnchor" value="267,140"/>
 							<property name="location_set_by_user" value="true"/>
-							<property name="bendpoints" value="204,96,204,140"/>
-							<property name="smooth_bendpoints" value="204,96,204,140"/>
+							<property name="bendpoints" value="314,96,314,140"/>
+							<property name="smooth_bendpoints" value="314,96,314,140"/>
 							<reference referencedUin="sd20_message_label:sd20_message|1|call|80(design:node:::l2gqtvkgkpvxz7m449h:-y8nsowkgkptk4tk7375z:-yrgd8ekgjea379-dd81iz)">
-								<property name="bounds" value="0,0,0,0"/>
+								<property name="bounds" value="267,76,181,20"/>
 							</reference>
 						</reference>
 					</reference>
@@ -92,22 +94,23 @@
 				</reference>
 			</reference>
 			<reference referencedUin="design:node:::-y8nsowkgjekljg-jb6b2x:-yrgd8ekgjea379-dd81iz">
-				<property name="bounds" value="209,5,128,524"/>
+				<property name="bounds" value="295,5,128,512"/>
 				<property name="location_set_by_user" value="true"/>
 				<property name="bounds_setted_by_user" value="true"/>
 				<reference referencedUin="design:node:::c87hzvkgkpvs53-z0hxmt:-y8nsowkgjekljg-jb6b2x:-yrgd8ekgjea379-dd81iz">
-					<property name="bounds" value="54,54,20,66"/>
+					<property name="bounds" value="54,42,20,78"/>
 					<property name="location_set_by_user" value="true"/>
 					<reference referencedUin="design:node:::1mmmvkgkpw88enn823i:c87hzvkgkpvs53-z0hxmt:-y8nsowkgjekljg-jb6b2x:-yrgd8ekgjea379-dd81iz">
-						<property name="bounds" value="0,26,20,24"/>
+						<property name="bounds" value="0,38,20,24"/>
 						<property name="location_set_by_user" value="true"/>
 						<property name="background_color" value="240,240,240"/>
 						<reference referencedUin="sd20_message_container:design:node:::1mmmvkgkpw88enn823i:c87hzvkgkpvs53-z0hxmt:-y8nsowkgjekljg-jb6b2x:-yrgd8ekgjea379-dd81iz">
+							<property name="bounds" value="0,0,0,0"/>
 							<reference referencedUin="sd20_message|1|call|103(design:node:::1mmmvkgkpw88enn823i:c87hzvkgkpvs53-z0hxmt:-y8nsowkgjekljg-jb6b2x:-yrgd8ekgjea379-dd81iz)">
-								<property name="sourceAnchor" value="328,12"/>
-								<property name="targetAnchor" value="422,12"/>
+								<property name="sourceAnchor" value="494,12"/>
+								<property name="targetAnchor" value="680,12"/>
 								<reference referencedUin="sd20_message_label:sd20_message|1|call|103(design:node:::1mmmvkgkpw88enn823i:c87hzvkgkpvs53-z0hxmt:-y8nsowkgjekljg-jb6b2x:-yrgd8ekgjea379-dd81iz)">
-									<property name="bounds" value="0,0,0,0"/>
+									<property name="bounds" value="494,-8,179,20"/>
 								</reference>
 							</reference>
 						</reference>
