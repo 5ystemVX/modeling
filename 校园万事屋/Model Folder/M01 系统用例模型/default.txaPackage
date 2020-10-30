@@ -90,11 +90,6 @@
 			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
 			<participant referencedUin="design:node:::gj7tthkfkor1nxdk1msu:8krugmkfkoo3zpjqs5g6" role="Supplier"></participant>
 		</link>
-		<link uin="ieje0rkfouf8ieef6j1l">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
-			<participant referencedUin="design:node:::gj7tthkfota9f0ze79je:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
-		</link>
 		<link uin="ieje0rkfouf9wbpo2253">
 			<property name="$metaclass" value="KernelAssociation20"/>
 			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
@@ -144,11 +139,6 @@
 			<property name="$metaclass" value="KernelAssociation20"/>
 			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
 			<participant referencedUin="design:node:::gj7tthkfoszike-98sqhi:8krugmkfoszcl2-a1yzfs" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkfouhcrn-gdyakv">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Client"></participant>
-			<participant referencedUin="design:node:::gj7tthkfoszjywqq50uo:8krugmkfoszcl2-a1yzfs" role="Supplier"></participant>
 		</link>
 		<link uin="ieje0rkfouhdxg-z8bpq8">
 			<property name="$metaclass" value="KernelAssociation20"/>
@@ -274,25 +264,6 @@
 			<property name="$metaclass" value="KernelAssociation20"/>
 			<participant referencedUin="design:node:::8bho0jkfko79qi-orsl81" role="Client"></participant>
 			<participant referencedUin="design:node:::gj7tthkfko6jkw-2q1kvl:8krugmkfkmsni0me6px3" role="Supplier"></participant>
-		</link>
-	</node>
-	<node uin="8bho0jkfkog04s-rd1vnv">
-		<property name="$metaclass" value="Actor20"/>
-		<property name="$name" value="管理员"/>
-		<link uin="ieje0rkfkoghob-hk5lsz">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<participant referencedUin="design:node:::8bho0jkfkog04s-rd1vnv" role="Client"></participant>
-			<participant referencedUin="design:node:::gj7tthkfko68karfr34h:8krugmkfkmsni0me6px3" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkfkoy2zx-rygv45">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<participant referencedUin="design:node:::8bho0jkfkog04s-rd1vnv" role="Client"></participant>
-			<participant referencedUin="design:node:::gj7tthkfko9b6b271ltu:8krugmkfkmsni0me6px3" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkfkp6nhm-x6iyem">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<participant referencedUin="design:node:::8bho0jkfkog04s-rd1vnv" role="Client"></participant>
-			<participant referencedUin="design:node:::gj7tthkfkoyu21-qsn4ah:8krugmkfkoo3zpjqs5g6" role="Supplier"></participant>
 		</link>
 	</node>
 	<node uin="8krugmkfkoo3zpjqs5g6">
@@ -424,6 +395,11 @@
 			<participant referencedUin="design:node:::8bho0jkfkp8fifchdkvx" role="Client"></participant>
 			<participant referencedUin="design:node:::gj7tthkfkooc7x-nbepoa:8krugmkfkoo3zpjqs5g6" role="Supplier"></participant>
 		</link>
+		<link uin="ieje0rkgw2ppga-ual9wx">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfkp8fifchdkvx" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkfota9f0ze79je:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+		</link>
 	</node>
 	<node uin="8bho0jkfosxukp-yk1vzs">
 		<property name="$metaclass" value="Actor20"/>
@@ -432,11 +408,6 @@
 			<property name="$metaclass" value="KernelAssociation20"/>
 			<participant referencedUin="design:node:::8bho0jkfosxukp-yk1vzs" role="Client"></participant>
 			<participant referencedUin="design:node:::gj7tthkfoszike-98sqhi:8krugmkfoszcl2-a1yzfs" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkfot68py-zamlzo">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<participant referencedUin="design:node:::8bho0jkfosxukp-yk1vzs" role="Client"></participant>
-			<participant referencedUin="design:node:::gj7tthkfoszjywqq50uo:8krugmkfoszcl2-a1yzfs" role="Supplier"></participant>
 		</link>
 		<link uin="ieje0rkfot6coq-br8rbh">
 			<property name="$metaclass" value="KernelAssociation20"/>
@@ -469,11 +440,7 @@
 		<property name="$name" value="校园万事屋"/>
 		<node uin="gj7tthkfoszike-98sqhi">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="登录"/>
-		</node>
-		<node uin="gj7tthkfoszjywqq50uo">
-			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="修改密码"/>
+			<property name="$name" value="00_01登录"/>
 		</node>
 		<node uin="gj7tthkfoszlxwnl7oa1">
 			<property name="$metaclass" value="UseCase20"/>
@@ -493,19 +460,19 @@
 		<property name="$name" value="任务委托业务"/>
 		<node uin="gj7tthkfota9f0ze79je">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="注册"/>
+			<property name="$name" value="01_01注册"/>
 		</node>
 		<node uin="gj7tthkfotaaei-yyiz8c">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="发布任务"/>
+			<property name="$name" value="01_02发布新任务"/>
 		</node>
 		<node uin="gj7tthkfotad2cw84nyf">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="浏览本人发布的任务订单"/>
+			<property name="$name" value="01_03浏览本人发布的任务订单"/>
 		</node>
 		<node uin="gj7tthkfotbk4c-o81n0a">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="编辑任务明细信息"/>
+			<property name="$name" value="01_06编辑任务明细信息"/>
 			<link uin="ieje0rkfotkvaze728rp">
 				<property name="$metaclass" value="Include20"/>
 				<participant referencedUin="design:node:::gj7tthkfotbk4c-o81n0a:8krugmkfot9qgq-ub0biz" role="Client"></participant>
@@ -519,7 +486,7 @@
 		</node>
 		<node uin="gj7tthkfotc0tmnkfepi">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="取消任务"/>
+			<property name="$name" value="01_08取消任务"/>
 			<link uin="ieje0rkfotl1uv5srmje">
 				<property name="$metaclass" value="Extend20"/>
 				<participant referencedUin="design:node:::gj7tthkfotc0tmnkfepi:8krugmkfot9qgq-ub0biz" role="Client"></participant>
@@ -528,7 +495,7 @@
 		</node>
 		<node uin="gj7tthkfotc805-gix9iq">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="修改任务内容"/>
+			<property name="$name" value="01_15修改任务内容"/>
 			<link uin="ieje0rkfotpuyz-2r1pul">
 				<property name="$metaclass" value="Extend20"/>
 				<participant referencedUin="design:node:::gj7tthkfotc805-gix9iq:8krugmkfot9qgq-ub0biz" role="Client"></participant>
@@ -537,7 +504,7 @@
 		</node>
 		<node uin="gj7tthkfotcedz-ezgdo3">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="查看指定订单的明细信息"/>
+			<property name="$name" value="01_11查看指定订单的明细信息"/>
 			<link uin="ieje0rkfotlygyrlci9c">
 				<property name="$metaclass" value="Extend20"/>
 				<participant referencedUin="design:node:::gj7tthkfotcedz-ezgdo3:8krugmkfot9qgq-ub0biz" role="Client"></participant>
@@ -551,7 +518,7 @@
 		</node>
 		<node uin="gj7tthkfotcutl-14qk0o">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="确认完成"/>
+			<property name="$name" value="01_09确认完成"/>
 			<link uin="ieje0rkfotl9ng-vpauh3">
 				<property name="$metaclass" value="Extend20"/>
 				<participant referencedUin="design:node:::gj7tthkfotcutl-14qk0o:8krugmkfot9qgq-ub0biz" role="Client"></participant>
@@ -560,24 +527,29 @@
 		</node>
 		<node uin="gj7tthkfotd1ud-7j1nft">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="评价接单人"/>
+			<property name="$name" value="01_10评价订单"/>
 			<link uin="ieje0rkfotl7br-a44nod">
 				<property name="$metaclass" value="Extend20"/>
 				<participant referencedUin="design:node:::gj7tthkfotd1ud-7j1nft:8krugmkfot9qgq-ub0biz" role="Client"></participant>
 				<participant referencedUin="design:node:::gj7tthkfotad2cw84nyf:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
 			</link>
+			<link uin="ieje0rkgw6673zs1o9tk">
+				<property name="$metaclass" value="Dependency20"/>
+				<participant referencedUin="design:node:::gj7tthkfotd1ud-7j1nft:8krugmkfot9qgq-ub0biz" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkfotg6hz98jrwq:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			</link>
 		</node>
 		<node uin="gj7tthkfotdbvp6rvpdd">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="浏览/查询待接单的任务"/>
+			<property name="$name" value="01_04浏览/查询待接单的任务"/>
 		</node>
 		<node uin="gj7tthkfotg6hz98jrwq">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="浏览/查询本人承接的订单"/>
+			<property name="$name" value="01_05浏览/查询本人承接的订单"/>
 		</node>
 		<node uin="gj7tthkfothaze-akz4dx">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="与另一方线上沟通"/>
+			<property name="$name" value="01_17与另一方线上沟通"/>
 			<link uin="ieje0rkfotlgyz22tipe">
 				<property name="$metaclass" value="Extend20"/>
 				<participant referencedUin="design:node:::gj7tthkfothaze-akz4dx:8krugmkfot9qgq-ub0biz" role="Client"></participant>
@@ -591,7 +563,7 @@
 		</node>
 		<node uin="gj7tthkfotiddfyl2cqp">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="标记任务开始执行"/>
+			<property name="$name" value="01_12标记任务执行状态"/>
 			<link uin="ieje0rkfotlux55xt607">
 				<property name="$metaclass" value="Extend20"/>
 				<participant referencedUin="design:node:::gj7tthkfotiddfyl2cqp:8krugmkfot9qgq-ub0biz" role="Client"></participant>
@@ -600,7 +572,7 @@
 		</node>
 		<node uin="gj7tthkfotilsk-8yjd3f">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="承接订单"/>
+			<property name="$name" value="01_18承接订单"/>
 			<link uin="ieje0rkfotlrtd-ma5bp6">
 				<property name="$metaclass" value="Extend20"/>
 				<participant referencedUin="design:node:::gj7tthkfotilsk-8yjd3f:8krugmkfot9qgq-ub0biz" role="Client"></participant>
@@ -609,7 +581,7 @@
 		</node>
 		<node uin="bkbz7kfotj7p08goj58">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="查看指定订单的明细信息"/>
+			<property name="$name" value="01_07查看指定订单的明细信息"/>
 			<link uin="ieje0rkfotlj1l-kt2asu">
 				<property name="$metaclass" value="Extend20"/>
 				<participant referencedUin="design:node:::bkbz7kfotj7p08goj58:8krugmkfot9qgq-ub0biz" role="Client"></participant>
@@ -618,7 +590,7 @@
 		</node>
 		<node uin="gj7tthkfotk0qcewsj4l">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="保存草稿"/>
+			<property name="$name" value="01_14保存草稿"/>
 			<link uin="ieje0rkfotqbkd-3hvfnh">
 				<property name="$metaclass" value="Extend20"/>
 				<participant referencedUin="design:node:::gj7tthkfotk0qcewsj4l:8krugmkfot9qgq-ub0biz" role="Client"></participant>
@@ -627,7 +599,7 @@
 		</node>
 		<node uin="gj7tthkfotlzsd-n1hl91">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="放弃任务"/>
+			<property name="$name" value="01_13放弃任务"/>
 			<link uin="ieje0rkfotm815-l4xdgd">
 				<property name="$metaclass" value="Extend20"/>
 				<participant referencedUin="design:node:::gj7tthkfotlzsd-n1hl91:8krugmkfot9qgq-ub0biz" role="Client"></participant>
@@ -636,7 +608,7 @@
 		</node>
 		<node uin="gj7tthkfoto4gf-jz4crh">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="申请投诉该订单"/>
+			<property name="$name" value="01_16申请投诉该订单"/>
 			<link uin="ieje0rkfotqlt9-k39rxu">
 				<property name="$metaclass" value="Extend20"/>
 				<participant referencedUin="design:node:::gj7tthkfoto4gf-jz4crh:8krugmkfot9qgq-ub0biz" role="Client"></participant>
@@ -673,23 +645,32 @@
 		<property name="$name" value="个人中心"/>
 		<node uin="gj7tthkfotxkokoa6ujf">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="设置个人账户信息"/>
+			<property name="$name" value="02_01设置个人信息"/>
 		</node>
 		<node uin="gj7tthkfotxzoudvo2ln">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="查看本人信用评级及评级记录"/>
+			<property name="$name" value="02_02查看本人信用评级及评级记录"/>
 		</node>
 		<node uin="gj7tthkfotymyg1uxe7k">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="查看本人金币余额及收支记录"/>
+			<property name="$name" value="02_03查看本人金币余额及收支记录"/>
 		</node>
 		<node uin="gj7tthkfotz2o5u77lpg">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="金币充值"/>
+			<property name="$name" value="02_04金币充值"/>
 		</node>
 		<node uin="gj7tthkfotzaujjlkkx5">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="金币提现"/>
+			<property name="$name" value="02_05金币提现"/>
+		</node>
+		<node uin="6ddoskgw7lg8cy3vsjw">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="02_06设置账户信息"/>
+			<link uin="ieje0rkgw7mgdi-wb8qjc">
+				<property name="$metaclass" value="KernelAssociation20"/>
+				<participant referencedUin="design:node:::6ddoskgw7lg8cy3vsjw:8krugmkfotxjb4-h87gpb" role="Client"></participant>
+				<participant referencedUin="design:node:::8bho0jkfkmsgy4-tisx2" role="Supplier"></participant>
+			</link>
 		</node>
 	</node>
 	<node uin="8krugmkfou3gww-6zknrj">
@@ -770,5 +751,18 @@
 				<participant referencedUin="design:node:::gj7tthkfou3t5uf468zd:8krugmkfou3gww-6zknrj" role="Supplier"></participant>
 			</link>
 		</node>
+		<node uin="gj7tthkgw7r36k-yu4b12">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="查看投诉"/>
+			<link uin="ieje0rkgw7uwj8h97a2n">
+				<property name="$metaclass" value="KernelAssociation20"/>
+				<participant referencedUin="design:node:::gj7tthkgw7r36k-yu4b12:8krugmkfou3gww-6zknrj" role="Client"></participant>
+				<participant referencedUin="design:node:::8bho0jkfosxukp-yk1vzs" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+	<node uin="8krugmkgw7qy7vw2eftd">
+		<property name="$metaclass" value="UseCaseClassifier20"/>
+		<property name="$name" value="Subject1"/>
 	</node>
 </nodeSet>

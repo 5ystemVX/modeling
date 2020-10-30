@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhkgjcjgbfihlpty">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="VOPC图"/>
+		<reference referencedUin="design:node:::-tdsqjukgjbike96mph52">
+			<property name="bounds" value="455,225,200,116"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:node:::tq87glkgjcqb3ft3pvy:-tdsqjukgjbike96mph52">
+			</reference>
+			<reference referencedUin="design:link:::ieje0rkgjd331d-r4jwif:-tdsqjukgjbike96mph52">
+				<property name="sourceAnchor" value="660,314"/>
+				<property name="targetAnchor" value="740,314"/>
+				<property name="bendpoints" value=""/>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgjd331d-r4jwif:-tdsqjukgjbike96mph52">
+					<property name="bounds" value="660,217,13,24"/>
+					<property name="$hidden" value="true"/>
+				</reference>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgjd331d-r4jwif:-tdsqjukgjbike96mph52">
+					<property name="bounds" value="717,287,13,24"/>
+					<property name="$hidden" value="true"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgjbhvueuqt719">
+			<property name="bounds" value="75,35,200,116"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkgjd1h30-msluvg:-tdsqjukgjbhvueuqt719">
+				<property name="sourceAnchor" value="280,98"/>
+				<property name="targetAnchor" value="380,98"/>
+				<property name="bendpoints" value=""/>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgjd1h30-msluvg:-tdsqjukgjbhvueuqt719">
+					<property name="bounds" value="254,226,13,24"/>
+					<property name="$hidden" value="true"/>
+				</reference>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgjd1h30-msluvg:-tdsqjukgjbhvueuqt719">
+					<property name="bounds" value="304,172,13,24"/>
+					<property name="$hidden" value="true"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgjbtoqt-59nz2m">
+			<property name="bounds" value="615,435,200,96"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgdejybf-yd0aim">
+			<property name="bounds" value="155,215,200,216"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkgjeqa0i-sxjr8n:-tdsqjukgdejybf-yd0aim">
+				<property name="sourceAnchor" value="360,362"/>
+				<property name="targetAnchor" value="620,453"/>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgjeqa0i-sxjr8n:-tdsqjukgdejybf-yd0aim">
+					<property name="bounds" value="369,338,13,24"/>
+				</reference>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgjeqa0i-sxjr8n:-tdsqjukgdejybf-yd0aim">
+					<property name="bounds" value="598,418,13,24"/>
+				</reference>
+			</reference>
+			<reference referencedUin="design:link:::ieje0rkgjd3ioz3t1eta:-tdsqjukgdejybf-yd0aim">
+				<property name="sourceAnchor" value="360,289"/>
+				<property name="targetAnchor" value="460,289"/>
+				<property name="bendpoints" value=""/>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgjd3ioz3t1eta:-tdsqjukgdejybf-yd0aim">
+					<property name="bounds" value="437,262,13,24"/>
+					<property name="$hidden" value="true"/>
+				</reference>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgjd3ioz3t1eta:-tdsqjukgdejybf-yd0aim">
+					<property name="bounds" value="370,262,13,24"/>
+					<property name="$hidden" value="true"/>
+				</reference>
+			</reference>
+		</reference>
+	</view>
+</nodeSet>

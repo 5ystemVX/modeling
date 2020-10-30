@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhkgdd1q5kvsr7y8">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="design:view:::V1hexuhkgej5n6o-d5645z">
+			<property name="bounds" value="173,145,148,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgej3zrb-z8k9hd">
+			<property name="bounds" value="319,5,148,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgej3kof-yufsxr">
+			<property name="bounds" value="162,5,137,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgdq1nde-ab1py">
+			<property name="bounds" value="5,285,206,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgej4f8f-nh9gaw">
+			<property name="bounds" value="5,5,137,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgeuj3ru-351dk4">
+			<property name="bounds" value="5,145,148,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgej31uz-6fs93w">
+			<property name="bounds" value="231,285,206,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgjbzl8c-pt82zu">
+			<property name="bounds" value="5,5,148,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgjbwj1v-nfwu56">
+			<property name="bounds" value="840,374,208,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgj8xvst-om2dh1">
+			<property name="bounds" value="92,290,137,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgjeu55iyvt2ov">
+			<property name="bounds" value="564,122,208,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgjg1upq-fxlu4v">
+			<property name="bounds" value="840,500,148,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgjc3hwedr189i">
+			<property name="bounds" value="564,374,137,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgjbxca12wkpdf">
+			<property name="bounds" value="810,248,283,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgjbz5o7-h23qbj">
+			<property name="bounds" value="564,-4,148,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgjexhvjfbkapz">
+			<property name="bounds" value="24,131,148,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgjbyg4w-i0yucg">
+			<property name="bounds" value="810,-4,283,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgjesnzv2tc7np">
+			<property name="bounds" value="318,-4,208,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgiunxk8-vbaa8o">
+			<property name="bounds" value="564,248,137,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgje9cx9-bze1sc">
+			<property name="bounds" value="810,122,268,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgjb5nedxm3urt">
+			<property name="bounds" value="359,122,137,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgkyflau-81onod">
+			<property name="bounds" value="318,131,253,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgky7jy0-5a7n45">
+			<property name="bounds" value="545,-4,343,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkgkxm5ys-7fj0t5">
+			<property name="bounds" value="318,-4,208,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

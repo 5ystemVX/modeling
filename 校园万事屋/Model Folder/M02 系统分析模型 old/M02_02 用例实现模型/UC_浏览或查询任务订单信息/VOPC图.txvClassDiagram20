@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhkgkykui6-5hzu53">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="VOPC图"/>
+		<reference referencedUin="design:node:::-tdsqjukgiu3gbu-qwmerd">
+			<property name="bounds" value="467,70,200,136"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkgjcg206-n52ovw:-tdsqjukgiu3gbu-qwmerd">
+				<property name="sourceAnchor" value="638,211"/>
+				<property name="targetAnchor" value="726,300"/>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgjcg206-n52ovw:-tdsqjukgiu3gbu-qwmerd">
+					<property name="bounds" value="722,269,13,24"/>
+				</reference>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgjcg206-n52ovw:-tdsqjukgiu3gbu-qwmerd">
+					<property name="bounds" value="672,218,13,24"/>
+				</reference>
+			</reference>
+			<reference referencedUin="design:link:::ieje0rkgjcfku1-ccc1x7:-tdsqjukgiu3gbu-qwmerd">
+				<property name="sourceAnchor" value="511,211"/>
+				<property name="targetAnchor" value="511,291"/>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgjcfku1-ccc1x7:-tdsqjukgiu3gbu-qwmerd">
+					<property name="bounds" value="514,257,13,24"/>
+				</reference>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgjcfku1-ccc1x7:-tdsqjukgiu3gbu-qwmerd">
+					<property name="bounds" value="514,217,13,24"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgdehw53sn4scf">
+			<property name="bounds" value="510,490,200,416"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

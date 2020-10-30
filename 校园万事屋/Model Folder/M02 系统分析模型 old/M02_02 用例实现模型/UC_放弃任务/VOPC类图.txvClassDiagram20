@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhkgjg2jyj-gqsmt6">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="VOPC类图"/>
+		<reference referencedUin="design:node:::-tdsqjukgdu2nvt4b5c6y">
+			<property name="bounds" value="298,140,200,234"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkgep19yc3aj5wy:-tdsqjukgdu2nvt4b5c6y">
+				<property name="sourceAnchor" value="492,379"/>
+				<property name="targetAnchor" value="492,446"/>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgep19yc3aj5wy:-tdsqjukgdu2nvt4b5c6y">
+					<property name="bounds" value="505,351,15,28"/>
+				</reference>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgep19yc3aj5wy:-tdsqjukgdu2nvt4b5c6y">
+					<property name="bounds" value="495,408,15,28"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgeltbue-8gk018">
+			<property name="bounds" value="444,441,200,156"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkgep1f63a8ag44:-tdsqjukgeltbue-8gk018">
+				<property name="sourceAnchor" value="649,561"/>
+				<property name="targetAnchor" value="720,561"/>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkgep1f63a8ag44:-tdsqjukgeltbue-8gk018">
+					<property name="bounds" value="659,534,13,24"/>
+				</reference>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkgep1f63a8ag44:-tdsqjukgeltbue-8gk018">
+					<property name="bounds" value="697,534,13,24"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgdehw53sn4scf">
+			<property name="bounds" value="715,515,200,336"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

@@ -2,507 +2,315 @@
 
 
 <nodeSet  version="1.1">
-	<node uin="-tdsqjukgedz2cl-l8n6q6">
+	<node uin="dufa3kgwabnr3-laqjs3">
 		<property name="$metaclass" value="Class20"/>
 		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="浏览订单控制类"/>
-		<node uin="tq87glkgee4f2u-btph3c">
+		<property name="$name" value="个人信息控制类"/>
+		<node uin="hq5likgwabnr3wavd6d">
 			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="查询该用户所有订单信息"/>
+			<property name="$name" value="//查看用户金币"/>
 		</node>
-		<link uin="ieje0rkgepte8t-u12hfi">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgedz2cl-l8n6q6" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdehw53sn4scf" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkgeptulc3jd1j1">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgedz2cl-l8n6q6" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdu2nvt4b5c6y" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkgeptxov-oqiu7y">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgedz2cl-l8n6q6" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgefj7qq-aa5yli" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkgepu0zj-214wra">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgedz2cl-l8n6q6" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgefkdfxi50n86" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkgepu3er-qkkzkn">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgedz2cl-l8n6q6" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgep6grhav7b3a" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkgjbydem1oc3hu">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgedz2cl-l8n6q6" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdu01rl-x3nqrf" role="Supplier"></participant>
-		</link>
-		<node uin="tq87glkgjcjqyc-y3uxo0">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="查询待接单信息请求"/>
-		</node>
-		<node uin="tq87glkgjckzdn-y3stjf">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="返回待接单订单"/>
-		</node>
-		<node uin="tq87glkgjelme0nb5zt4">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="查询已接单订单信息请求"/>
-		</node>
-		<node uin="tq87glkgjen3oz-fto0h7">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="返回已接单订单信息"/>
-		</node>
-	</node>
-	<node uin="-tdsqjukgeltbue-8gk018">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="订单详细信息控制类"/>
-		<node uin="tq87glkgelxzp5ebal1i">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="查询某一订单详细信息"/>
-		</node>
-		<link uin="ieje0rkgep1f63a8ag44">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgeltbue-8gk018" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdehw53sn4scf" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkgep1icx-n9v9ew">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgeltbue-8gk018" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgefl8rl-sz2mt3" role="Supplier"></participant>
-		</link>
-		<node uin="tq87glkgjfaavqyf3mvd">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="标记任务开始请求"/>
-		</node>
-		<node uin="tq87glkgjfcr49-42m7nn">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="返回更改成功与否信息"/>
-		</node>
-		<node uin="tq87glkgjg5qnbmp8zda">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="放弃任务请求"/>
-		</node>
-	</node>
-	<node uin="-tdsqjukgemctil-t3tysg">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="评价接单人控制类"/>
-		<node uin="tq87glkgemfyh4vncoim">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="评价接单人"/>
-		</node>
-		<node uin="tq87glkgepatsi-asq5yg">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="提交接单人评价"/>
-		</node>
-		<link uin="ieje0rkgepe8d8gzdrjn">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgemctil-t3tysg" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdejybf-yd0aim" role="Supplier"></participant>
-		</link>
-	</node>
-	<node uin="-tdsqjukgen0mtm-bbm8yj">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="取消任务控制类"/>
-		<node uin="tq87glkgen30eygvrokn">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="取消某一委托"/>
-		</node>
-		<link uin="ieje0rkgepga97-dqg3hb">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgen0mtm-bbm8yj" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdehw53sn4scf" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkgepgcrn-wfe0j3">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgen0mtm-bbm8yj" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdejybf-yd0aim" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkgepgfryxprveq">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgen0mtm-bbm8yj" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdu2nvt4b5c6y" role="Supplier"></participant>
-		</link>
-	</node>
-	<node uin="-tdsqjukgenep4m1h6orn">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="确认订单完成控制类"/>
-		<node uin="tq87glkgeng5ao-q08a8j">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="确认订单已完成"/>
-		</node>
-		<link uin="ieje0rkgeplliw-lxjs7o">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgenep4m1h6orn" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdu01rl-x3nqrf" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkgeplnlm7p8qcm">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgenep4m1h6orn" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdehw53sn4scf" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkgeplqc0h0jptl">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgenep4m1h6orn" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdejybf-yd0aim" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkgjlr05a-ri389h">
-			<property name="directed" value="true"/>
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgenep4m1h6orn" role="Client"></participant>
-			<participant referencedUin="design:node:::fzscskgjj7ge0-fs3znk" role="Supplier"></participant>
-		</link>
-	</node>
-	<node uin="-tdsqjukgenqq8ayo1itl">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="申诉订单控制类"/>
-		<node uin="tq87glkgentaj1-x3u3sj">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="提交订单申诉信息"/>
-		</node>
-		<link uin="ieje0rkgepp0wk-t0zvoi">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgenqq8ayo1itl" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdehw53sn4scf" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkgepp60y-2mw0d2">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgenqq8ayo1itl" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdeibmkhvl24u" role="Supplier"></participant>
-		</link>
-	</node>
-	<node uin="-tdsqjukgeurytkmiszwn">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="订单编辑控制类"/>
-		<node uin="tq87glkgeuu2di-6kg2o7">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="编辑某一订单"/>
-		</node>
-		<link uin="ieje0rkgeuyh68-vuaaw9">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgeurytkmiszwn" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdehw53sn4scf" role="Supplier"></participant>
-		</link>
-		<node uin="tq87glkgjcfmqg2pn86m">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="创建新订单"/>
-		</node>
-		<node uin="tq87glkgjchw5r-2j5vo6">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="更新详细信息"/>
-		</node>
-		<node uin="tq87glkgjclrfkz11dkm">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="更新订单内容"/>
-		</node>
-		<node uin="tq87glkgstg5f922v373">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="确认发布"/>
-		</node>
-	</node>
-	<node uin="-tdsqjukgjb4q1k-ujwxvx">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="账户管理控制类"/>
-		<node uin="tq87glkgjb817d4ban21">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="登录"/>
-		</node>
-		<link uin="ieje0rkgjbcejef9yiub">
-			<property name="directed" value="true"/>
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgjb4q1k-ujwxvx" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgjazyot93webj" role="Supplier"></participant>
-		</link>
-		<node uin="tq87glkgjbz32a1cn93j">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="注册"/>
-		</node>
-		<node uin="tq87glkgjc541ey6j1eb">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="密码修改申请"/>
-		</node>
-	</node>
-	<node uin="-tdsqjukgjbnpwsnvqx3c">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="个人账户信息控制类"/>
-		<node uin="tq87glkgjc50pm-idqm6j">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="//修改个人账户信息"/>
-		</node>
-		<link uin="ieje0rkgjc9boebjlv33">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgjbnpwsnvqx3c" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdejybf-yd0aim" role="Supplier"></participant>
-		</link>
-	</node>
-	<node uin="-tdsqjukgjbpj97qglp13">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_boundary"/>
-		<property name="$name" value="个人信用评级控制类"/>
-		<node uin="tq87glkgjcmvcyne3ctv">
+		<node uin="6duqvkgwabnr3-2uydtv">
 			<property name="$metaclass" value="Operation20"/>
 			<property name="$name" value="//查看个人信用评级"/>
 		</node>
-		<node uin="tq87glkgjctvf8-gz3lqf">
+		<node uin="b35aikgwabnr3vdi9mp">
 			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="//查看个人信用评级记录"/>
+			<property name="$name" value="//禁止或恢复指定用户账户"/>
 		</node>
-		<link uin="ieje0rkgjd1p1ereszak">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgjbpj97qglp13" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdejybf-yd0aim" role="Supplier"></participant>
-		</link>
-	</node>
-	<node uin="-tdsqjukgjbqf36dwqxsb">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="个人金币余额控制类"/>
-		<node uin="tq87glkgjdc9seql99sm">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="//查看个人金币余额"/>
-		</node>
-		<link uin="ieje0rkgjdhz6l-sdbs7l">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgjbqf36dwqxsb" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdejybf-yd0aim" role="Supplier"></participant>
-		</link>
-		<node uin="tq87glkgjdxb5z-b6lnjp">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="//完成金币充值"/>
-		</node>
-		<link uin="ieje0rkgje3dn9rjo5d7">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgjbqf36dwqxsb" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgjbrzyso65ds" role="Supplier"></participant>
-		</link>
-		<node uin="tq87glkgje7vk17v3dh5">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="//完成金币提现"/>
-		</node>
-	</node>
-	<node uin="-tdsqjukgjcfy3kahfwgq">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="个人信用评级记录控制类"/>
-		<node uin="tq87glkgjcq2oa1e0l0r">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="//查看个人信用评级记录"/>
-		</node>
-		<link uin="ieje0rkgjd3bl2-a7ytds">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgjcfy3kahfwgq" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgjbtoqt-59nz2m" role="Supplier"></participant>
-		</link>
-	</node>
-	<node uin="-tdsqjukgjchuq4-ltf1v4">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="个人金币余额收支记录控制类"/>
-		<node uin="tq87glkgjddzlbihhqfz">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="//查看个人金币收支记录"/>
-		</node>
-		<link uin="ieje0rkgjdia1fdycyu1">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgjchuq4-ltf1v4" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgjbrzyso65ds" role="Supplier"></participant>
-		</link>
-	</node>
-	<node uin="-tdsqjukgjevk0k-z0ybgq">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="承接订单控制类"/>
-		<link uin="ieje0rkgjf0h6s-144432">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgjevk0k-z0ybgq" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgjev2gyolhzzd" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkgjf0iwusu89e0">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgjevk0k-z0ybgq" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdehw53sn4scf" role="Supplier"></participant>
-		</link>
-		<node uin="tq87glkgjf388j90d0e6">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="承接订单请求"/>
-		</node>
-		<node uin="tq87glkgjf42vw-f06t5n">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="返回状态改变信息（成功与否）"/>
-		</node>
-	</node>
-	<node uin="-tdsqjukgjfstmf-3p2ra3">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="聊天页面控制类"/>
-		<link uin="ieje0rkgjftafcclqfxd">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<participant referencedUin="design:node:::-tdsqjukgjfstmf-3p2ra3" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgjfrz0u-7t7x6l" role="Supplier"></participant>
-		</link>
-		<node uin="tq87glkgjfw7j5-n27c2y">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="发送消息请求"/>
-		</node>
-		<node uin="tq87glkgjfx3b1uiqj37">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="输入消息内容"/>
-		</node>
-	</node>
-	<node uin="-tdsqjukgiu4hlj-b5dhgt">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="查看用户账户信息控制类"/>
-		<node uin="tq87glkgius9o6n4cuul">
+		<node uin="glzbdkgwabnr3htwp8f">
 			<property name="$metaclass" value="Operation20"/>
 			<property name="$name" value="//查看用户账户信息"/>
 		</node>
-		<node uin="tq87glkgiwfz22-k6dfj9">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="/显示用户账户信息"/>
-		</node>
-		<link uin="ieje0rkgjdeze5-eryf0g">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgiu4hlj-b5dhgt" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdejybf-yd0aim" role="Supplier"></participant>
-		</link>
 	</node>
-	<node uin="-tdsqjukgiua8u0-998yge">
+	<node uin="ih745kgwabnr3-p4h04r">
 		<property name="$metaclass" value="Class20"/>
 		<property name="stereotype" value="SwDev_control"/>
 		<property name="$name" value="查看用户信用评级控制类"/>
-		<node uin="tq87glkgix2nn2lxxj5b">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="//查看用户信用评级"/>
-		</node>
-		<link uin="ieje0rkgjdfbi7uvb16w">
+		<link uin="5kii6kgwabnr3-ogal96">
 			<property name="$metaclass" value="KernelAssociation20"/>
 			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgiua8u0-998yge" role="Client"></participant>
+			<participant referencedUin="design:node:::ih745kgwabnr3-p4h04r" role="Client"></participant>
 			<participant referencedUin="design:node:::-tdsqjukgdejybf-yd0aim" role="Supplier"></participant>
 		</link>
-		<node uin="tq87glkgkxxypc-gdd60z">
+		<node uin="hvzoekgwabnr3-z4i8a6">
 			<property name="$metaclass" value="Operation20"/>
 			<property name="$name" value="//查看用户信用评级信息"/>
 		</node>
 	</node>
-	<node uin="-tdsqjukgiub1xiprsc7y">
+	<node uin="g2u0skgwabnr2-npsk8x">
 		<property name="$metaclass" value="Class20"/>
 		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="查看用户金币控制类"/>
-		<node uin="tq87glkgix4mnjfy4gzo">
+		<property name="$name" value="聊天信息控制类"/>
+		<link uin="75u9kgwabnr2-vunn3e">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::g2u0skgwabnr2-npsk8x" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjukgjfrz0u-7t7x6l" role="Supplier"></participant>
+		</link>
+		<node uin="7j9jpkgwabnr2-hq8jcz">
 			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="//查看用户金币"/>
+			<property name="$name" value="发送消息请求"/>
 		</node>
-		<link uin="ieje0rkgjdg8kd-ummn1h">
+		<node uin="65wsdkgwabnr2-6ujxs2">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="输入消息内容"/>
+		</node>
+	</node>
+	<node uin="j0xoykgwabnr2-sgywwz">
+		<property name="$metaclass" value="Class20"/>
+		<property name="stereotype" value="SwDev_control"/>
+		<property name="$name" value="个人金币余额收支记录控制类"/>
+		<node uin="b087xkgwabnr2rxwe1p">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="//查看个人金币收支记录"/>
+		</node>
+		<link uin="cgiyjkgwabnr2-msaxzk">
 			<property name="$metaclass" value="KernelAssociation20"/>
 			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgiub1xiprsc7y" role="Client"></participant>
+			<participant referencedUin="design:node:::j0xoykgwabnr2-sgywwz" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjukgjbrzyso65ds" role="Supplier"></participant>
+		</link>
+	</node>
+	<node uin="4t5kfkgwabnr1-7vxo6o">
+		<property name="$metaclass" value="Class20"/>
+		<property name="stereotype" value="SwDev_control"/>
+		<property name="$name" value="金币账本"/>
+		<link uin="afx5ikgwabnr1-wqjz9c">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
+			<participant referencedUin="design:node:::4t5kfkgwabnr1-7vxo6o" role="Client"></participant>
 			<participant referencedUin="design:node:::-tdsqjukgdejybf-yd0aim" role="Supplier"></participant>
 		</link>
-	</node>
-	<node uin="-tdsqjukgiubluc-k2zk2o">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="查看任务订单明细控制类"/>
-		<node uin="tq87glkgjc5z32-4nu13p">
+		<node uin="10ujpkgwabnr1hyolb6">
 			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="//查看任务订单明细"/>
+			<property name="$name" value="//完成金币充值"/>
 		</node>
-		<link uin="ieje0rkgjcgf6u-8ujjlh">
+		<link uin="2kk7ckgwabnr1-rrjy6i">
 			<property name="$metaclass" value="KernelAssociation20"/>
 			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgiubluc-k2zk2o" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdehw53sn4scf" role="Supplier"></participant>
+			<participant referencedUin="design:node:::4t5kfkgwabnr1-7vxo6o" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjukgjbrzyso65ds" role="Supplier"></participant>
 		</link>
-		<node uin="tq87glkgkyphhlwyt0y7">
+		<node uin="2104gkgwabnr2-90agmx">
 			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="//浏览或查询任务订单信息"/>
+			<property name="$name" value="//完成金币提现"/>
 		</node>
-	</node>
-	<node uin="-tdsqjukgiuc38ih3h6nz">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="更改任务订单执行状态控制类"/>
-		<node uin="tq87glkgjcc6p1mwix3a">
-			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="//更改任务订单执行状态"/>
-		</node>
-		<link uin="ieje0rkgjcgiyndrwec1">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgiuc38ih3h6nz" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgdehw53sn4scf" role="Supplier"></participant>
-		</link>
-	</node>
-	<node uin="-tdsqjukgjd5rip1xtoo4">
-		<property name="$metaclass" value="Class20"/>
-		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="浏览或查询平台的金币充值及提现记录控制类"/>
-		<node uin="tq87glkgjd8rwl-laslg1">
+		<node uin="y257kgwabnr2-2dzs44">
 			<property name="$metaclass" value="Operation20"/>
 			<property name="$name" value="//浏览或查询平台的金币充值及提现记录"/>
 		</node>
-		<link uin="ieje0rkgjdbfg1kp11ux">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgjd5rip1xtoo4" role="Client"></participant>
-			<participant referencedUin="design:node:::-tdsqjukgjcy32g-hj20km" role="Supplier"></participant>
-		</link>
 	</node>
-	<node uin="-tdsqjukgje3et7uwadhg">
+	<node uin="i2b2lkgwabnr1cemrzy">
 		<property name="$metaclass" value="Class20"/>
 		<property name="stereotype" value="SwDev_control"/>
-		<property name="$name" value="禁止/恢复指定用户账户"/>
-		<link uin="ieje0rkgje53y4-bdbbkw">
+		<property name="$name" value="账户管理控制类"/>
+		<node uin="6471qkgwabnr1-xh1c3a">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="登录"/>
+		</node>
+		<link uin="gwqh5kgwabnr1-fdi0eg">
+			<property name="directed" value="true"/>
 			<property name="$metaclass" value="KernelAssociation20"/>
 			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
-			<participant referencedUin="design:node:::-tdsqjukgje3et7uwadhg" role="Client"></participant>
+			<participant referencedUin="design:node:::i2b2lkgwabnr1cemrzy" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjukgjazyot93webj" role="Supplier"></participant>
+		</link>
+		<node uin="fsdsakgwabnr1-aq1qd3">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="注册"/>
+		</node>
+		<node uin="fi0rmkgwabnr127cpin">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="密码修改申请"/>
+		</node>
+		<node uin="clmy4kgwabnr1j281u7">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="//修改个人账户信息"/>
+		</node>
+	</node>
+	<node uin="5m60tkgwabnr0-2nfpfi">
+		<property name="$metaclass" value="Class20"/>
+		<property name="stereotype" value="SwDev_control"/>
+		<property name="$name" value="订单编辑控制类"/>
+		<node uin="alvuxkgwabnr05m8qxr">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="编辑某一订单"/>
+		</node>
+		<link uin="8jt3hkgwabnr0-gk9g6z">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
+			<participant referencedUin="design:node:::5m60tkgwabnr0-2nfpfi" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjukgdehw53sn4scf" role="Supplier"></participant>
+		</link>
+		<node uin="5ybmdkgwabnr0-futrnf">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="更新详细信息"/>
+		</node>
+		<node uin="byd4skgwabnr029vipj">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="更新订单内容"/>
+		</node>
+		<node uin="7gf93kgwabnr0qi8mns">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="//查看任务订单明细"/>
+		</node>
+	</node>
+	<node uin="7y94vkgwabnr0-jzawnj">
+		<property name="$metaclass" value="Class20"/>
+		<property name="stereotype" value="SwDev_control"/>
+		<property name="$name" value="申诉控制类"/>
+		<node uin="bmutokgwabnr0npa3os">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="提交订单申诉信息"/>
+		</node>
+		<link uin="8h8c1kgwabnr0b7ioow">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
+			<participant referencedUin="design:node:::7y94vkgwabnr0-jzawnj" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjukgdehw53sn4scf" role="Supplier"></participant>
+		</link>
+		<link uin="1mf6jkgwabnr0-iwcux6">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
+			<participant referencedUin="design:node:::7y94vkgwabnr0-jzawnj" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjukgdeibmkhvl24u" role="Supplier"></participant>
+		</link>
+	</node>
+	<node uin="ak7z8kgwabnqz-faryjf">
+		<property name="$metaclass" value="Class20"/>
+		<property name="stereotype" value="SwDev_control"/>
+		<property name="$name" value="评价控制类"/>
+		<node uin="b466jkgwabnqz-7b0536">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="评价接单人"/>
+		</node>
+		<link uin="fjibpkgwabnqz-s1ge2m">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
+			<participant referencedUin="design:node:::ak7z8kgwabnqz-faryjf" role="Client"></participant>
 			<participant referencedUin="design:node:::-tdsqjukgdejybf-yd0aim" role="Supplier"></participant>
 		</link>
-		<node uin="tq87glkgje7qkj-2mv5ef">
+	</node>
+	<node uin="ji4u2kgwabnqy-v35f7x">
+		<property name="$metaclass" value="Class20"/>
+		<property name="stereotype" value="SwDev_control"/>
+		<property name="$name" value="订单控制类1"/>
+		<node uin="9bxvjkgwabnqy-xo5c7m">
 			<property name="$metaclass" value="Operation20"/>
-			<property name="$name" value="//禁止或恢复指定用户账户"/>
+			<property name="$name" value="查询某一订单详细信息"/>
 		</node>
+		<link uin="evbvokgwabnqy-1wy059">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
+			<participant referencedUin="design:node:::ji4u2kgwabnqy-v35f7x" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjukgdehw53sn4scf" role="Supplier"></participant>
+		</link>
+		<link uin="6yf1ykgwabnqzbgyq32">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
+			<participant referencedUin="design:node:::ji4u2kgwabnqy-v35f7x" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjukgefl8rl-sz2mt3" role="Supplier"></participant>
+		</link>
+		<node uin="2ieyrkgwabnqz-zf1ewc">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="标记任务开始请求"/>
+		</node>
+		<node uin="j81z3kgwabnqz8kaxw5">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="返回更改成功与否信息"/>
+		</node>
+		<node uin="iat54kgwabnqz-i3kjh2">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="放弃任务请求"/>
+		</node>
+		<node uin="jt5d0kgwabnqz-cybm8k">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="创建新订单"/>
+		</node>
+		<node uin="hf2vhkgwabnqz93mbry">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="确认发布"/>
+		</node>
+		<node uin="9r6ldkgwabnqzcv1dic">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="确认订单已完成"/>
+		</node>
+		<node uin="ivb5pkgwabnqz51m3y">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="承接订单请求"/>
+		</node>
+		<node uin="1i9m6kgwabnqzu769y8">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="取消某一委托"/>
+		</node>
+		<node uin="3t4hvkgwabnqzib55f2">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="//更改任务订单执行状态"/>
+		</node>
+	</node>
+	<node uin="hb2mikgwabnqx-p95b1e">
+		<property name="$metaclass" value="Class20"/>
+		<property name="stereotype" value="SwDev_control"/>
+		<property name="$name" value="订单详细信息控制类"/>
+		<node uin="gycagkgwabnqx-ap4nbe">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="查询该用户所有订单信息"/>
+		</node>
+		<link uin="6engekgwabnqx-fsucpn">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
+			<participant referencedUin="design:node:::hb2mikgwabnqx-p95b1e" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjukgdehw53sn4scf" role="Supplier"></participant>
+		</link>
+		<link uin="3tlt9kgwabnqx-66khgv">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
+			<participant referencedUin="design:node:::hb2mikgwabnqx-p95b1e" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjukgdu2nvt4b5c6y" role="Supplier"></participant>
+		</link>
+		<link uin="fdeyckgwabnqy-8fw4sp">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
+			<participant referencedUin="design:node:::hb2mikgwabnqx-p95b1e" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjukgefj7qq-aa5yli" role="Supplier"></participant>
+		</link>
+		<link uin="ju7s4kgwabnqy91ltp7">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
+			<participant referencedUin="design:node:::hb2mikgwabnqx-p95b1e" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjukgefkdfxi50n86" role="Supplier"></participant>
+		</link>
+		<link uin="g824gkgwabnqyh6b3">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
+			<participant referencedUin="design:node:::hb2mikgwabnqx-p95b1e" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjukgep6grhav7b3a" role="Supplier"></participant>
+		</link>
+		<link uin="2blunkgwabnqy-mzvwpe">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="supplierNavigability" value="$supplierNavigableExplicitly"/>
+			<participant referencedUin="design:node:::hb2mikgwabnqx-p95b1e" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjukgdu01rl-x3nqrf" role="Supplier"></participant>
+		</link>
+		<node uin="gwnrikgwabnqy-7q6fml">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="查询待接单信息请求"/>
+		</node>
+		<node uin="ledekgwabnqy-kck3pt">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="返回待接单订单"/>
+		</node>
+		<node uin="1quhzkgwabnqy-vrh9gy">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="查询已接单订单信息请求"/>
+		</node>
+		<node uin="e13qckgwabnqycykpzh">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="返回已接单订单信息"/>
+		</node>
+	</node>
+	<node uin="1g64ykgw8ssrmqaiok3">
+		<property name="$metaclass" value="Note"/>
+		<property name="$note_text" value="发布订单&#10;"/>
 	</node>
 </nodeSet>
