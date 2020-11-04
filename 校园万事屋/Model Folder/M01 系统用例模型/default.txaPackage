@@ -398,7 +398,7 @@
 		<link uin="ieje0rkgw2ppga-ual9wx">
 			<property name="$metaclass" value="KernelAssociation20"/>
 			<participant referencedUin="design:node:::8bho0jkfkp8fifchdkvx" role="Client"></participant>
-			<participant referencedUin="design:node:::gj7tthkfota9f0ze79je:8krugmkfot9qgq-ub0biz" role="Supplier"></participant>
+			<participant referencedUin="design:node:::cp69fkh2ol9gl-863u4m:8krugmkfoszcl2-a1yzfs" role="Supplier"></participant>
 		</link>
 	</node>
 	<node uin="8bho0jkfosxukp-yk1vzs">
@@ -434,13 +434,18 @@
 			<participant referencedUin="design:node:::8bho0jkfosxukp-yk1vzs" role="Client"></participant>
 			<participant referencedUin="design:node:::gj7tthkfou3r3gjxkcup:8krugmkfou3gww-6zknrj" role="Supplier"></participant>
 		</link>
+		<link uin="ieje0rkh2p3f1u-1qkc6o">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkfosxukp-yk1vzs" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkh2p370qguba54:8krugmkfou3gww-6zknrj" role="Supplier"></participant>
+		</link>
 	</node>
 	<node uin="8krugmkfoszcl2-a1yzfs">
 		<property name="$metaclass" value="UseCaseClassifier20"/>
 		<property name="$name" value="校园万事屋"/>
 		<node uin="gj7tthkfoszike-98sqhi">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="00_01登录"/>
+			<property name="$name" value="00_02登录"/>
 		</node>
 		<node uin="gj7tthkfoszlxwnl7oa1">
 			<property name="$metaclass" value="UseCase20"/>
@@ -454,14 +459,14 @@
 			<property name="$metaclass" value="UseCase20"/>
 			<property name="$name" value="  平台管理 （子系统）"/>
 		</node>
+		<node uin="cp69fkh2ol9gl-863u4m">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="00_01申请注册"/>
+		</node>
 	</node>
 	<node uin="8krugmkfot9qgq-ub0biz">
 		<property name="$metaclass" value="UseCaseClassifier20"/>
 		<property name="$name" value="任务委托业务"/>
-		<node uin="gj7tthkfota9f0ze79je">
-			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="01_01注册"/>
-		</node>
 		<node uin="gj7tthkfotaaei-yyiz8c">
 			<property name="$metaclass" value="UseCase20"/>
 			<property name="$name" value="01_02发布新任务"/>
@@ -759,6 +764,10 @@
 				<participant referencedUin="design:node:::gj7tthkgw7r36k-yu4b12:8krugmkfou3gww-6zknrj" role="Client"></participant>
 				<participant referencedUin="design:node:::8bho0jkfosxukp-yk1vzs" role="Supplier"></participant>
 			</link>
+		</node>
+		<node uin="gj7tthkh2p370qguba54">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="审核注册申请"/>
 		</node>
 	</node>
 	<node uin="8krugmkgw7qy7vw2eftd">

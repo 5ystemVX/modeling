@@ -13,6 +13,18 @@
 			<property name="$metaclass" value="Note"/>
 			<property name="$note_text" value="密码&#10;"/>
 		</node>
+		<node uin="tq87glkh2or44c-687iwb">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="查询账户信息"/>
+		</node>
+		<node uin="tq87glkh2oro00-xc2qdx">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="验证密码"/>
+		</node>
+		<node uin="tq87glkh2pxx81-x4nt8v">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="新建账户信息"/>
+		</node>
 	</node>
 	<node uin="-tdsqjukgw34uzul6xoct">
 		<property name="$metaclass" value="Class20"/>
@@ -25,6 +37,10 @@
 			<participant referencedUin="design:node:::-tdsqjukgw34uzul6xoct" role="Client"></participant>
 			<participant referencedUin="design:node:::-tdsqjukgw34oa5yyy61p" role="Supplier"></participant>
 		</link>
+		<node uin="tq87glkh2pqfvo-9lmwr1">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="查询金币余额"/>
+		</node>
 	</node>
 	<node uin="-tdsqjukgw355aw-w82kkt">
 		<property name="$metaclass" value="Class20"/>
@@ -92,6 +108,10 @@
 			<participant referencedUin="design:node:::-tdsqjukgw37olp6z4mh1" role="Client"></participant>
 			<participant referencedUin="design:node:::-tdsqjukgw34uzul6xoct" role="Supplier"></participant>
 		</link>
+		<node uin="tq87glkh2podymij8o0j">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="新建订单"/>
+		</node>
 	</node>
 	<node uin="-tdsqjukgw38j1knthvre">
 		<property name="$metaclass" value="Class20"/>
@@ -104,6 +124,10 @@
 			<participant referencedUin="design:node:::-tdsqjukgw38j1knthvre" role="Client"></participant>
 			<participant referencedUin="design:node:::-tdsqjukgw37olp6z4mh1" role="Supplier"></participant>
 		</link>
+		<node uin="tq87glkh2pokqgohi3g0">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="新建订单详情"/>
+		</node>
 	</node>
 	<node uin="-tdsqjukgw3922ok5jia9">
 		<property name="$metaclass" value="Class20"/>
@@ -137,5 +161,14 @@
 			<participant referencedUin="design:node:::1g64ykgw7bo9a-1wgd7f" role="Client"></participant>
 			<participant referencedUin="design:node:::-tdsqjukgw34oa5yyy61p" role="Supplier"></participant>
 		</link>
+	</node>
+	<node uin="-tdsqjukh2ovlza-ifwrke">
+		<property name="$metaclass" value="Class20"/>
+		<property name="stereotype" value="SwDev_entity"/>
+		<property name="$name" value="注册申请"/>
+		<node uin="tq87glkh2p6gstcsvhpr">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="新建注册申请"/>
+		</node>
 	</node>
 </nodeSet>

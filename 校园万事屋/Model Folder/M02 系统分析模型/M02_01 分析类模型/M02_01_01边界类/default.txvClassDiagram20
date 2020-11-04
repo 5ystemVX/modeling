@@ -55,5 +55,9 @@
 			<property name="location_set_by_user" value="true"/>
 			<property name="bounds_setted_by_user" value="true"/>
 		</reference>
+		<reference referencedUin="design:node:::-tdsqjukh2pvhw4fls452">
+			<property name="bounds" value="755,475,144,96"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
 	</view>
 </nodeSet>

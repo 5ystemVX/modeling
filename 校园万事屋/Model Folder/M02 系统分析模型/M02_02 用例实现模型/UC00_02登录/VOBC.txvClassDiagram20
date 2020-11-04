@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhkh2osn3tfmk8re">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="VOBC"/>
+		<reference referencedUin="design:node:::-tdsqjukgw2w2o2-6s5nh3">
+			<property name="bounds" value="251,265,200,116"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkh2ott6j-x2wed7:-tdsqjukgw2w2o2-6s5nh3">
+				<property name="sourceAnchor" value="456,293"/>
+				<property name="targetAnchor" value="560,293"/>
+				<property name="bendpoints" value=""/>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkh2ott6j-x2wed7:-tdsqjukgw2w2o2-6s5nh3">
+					<property name="bounds" value="466,266,13,24"/>
+				</reference>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkh2ott6j-x2wed7:-tdsqjukgw2w2o2-6s5nh3">
+					<property name="bounds" value="537,266,13,24"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::i2b2lkgwabnr1cemrzy">
+			<property name="bounds" value="555,255,200,196"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:link:::ieje0rkh2otutxi21372:i2b2lkgwabnr1cemrzy">
+				<property name="sourceAnchor" value="760,286"/>
+				<property name="targetAnchor" value="860,286"/>
+				<property name="bendpoints" value=""/>
+				<reference referencedUin="label:supplierCardinality:design:link:::ieje0rkh2otutxi21372:i2b2lkgwabnr1cemrzy">
+					<property name="bounds" value="837,259,13,24"/>
+				</reference>
+				<reference referencedUin="label:clientCardinality:design:link:::ieje0rkh2otutxi21372:i2b2lkgwabnr1cemrzy">
+					<property name="bounds" value="770,259,13,24"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="design:node:::-tdsqjukgw34oa5yyy61p">
+			<property name="bounds" value="855,265,200,136"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

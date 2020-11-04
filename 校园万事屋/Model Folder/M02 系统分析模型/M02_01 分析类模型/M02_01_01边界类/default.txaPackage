@@ -16,6 +16,19 @@
 		<property name="$metaclass" value="Class20"/>
 		<property name="stereotype" value="SwDev_boundary"/>
 		<property name="$name" value="注册登录页面"/>
+		<node uin="tq87glkh2op84d1s0sdw">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="登录"/>
+		</node>
+		<link uin="ieje0rkh2ott6j-x2wed7">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::-tdsqjukgw2w2o2-6s5nh3" role="Client"></participant>
+			<participant referencedUin="design:node:::i2b2lkgwabnr1cemrzy" role="Supplier"></participant>
+		</link>
+		<node uin="tq87glkh2p5dj5wltn7z">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="申请注册"/>
+		</node>
 	</node>
 	<node uin="-tdsqjukgw2xexv-60073h">
 		<property name="$metaclass" value="Class20"/>
@@ -31,6 +44,15 @@
 		<property name="$metaclass" value="Class20"/>
 		<property name="stereotype" value="SwDev_boundary"/>
 		<property name="$name" value="订单编辑页面"/>
+		<node uin="tq87glkh2pnt6b9ni1qt">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="发布任务"/>
+		</node>
+		<link uin="ieje0rkh2psin0-mk5kxx">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::-tdsqjukgw2zo0nlsc573" role="Client"></participant>
+			<participant referencedUin="design:node:::ji4u2kgwabnqy-v35f7x" role="Supplier"></participant>
+		</link>
 	</node>
 	<node uin="-tdsqjukgw30hzwbqw72v">
 		<property name="$metaclass" value="Class20"/>
@@ -51,5 +73,14 @@
 		<property name="$metaclass" value="Class20"/>
 		<property name="stereotype" value="SwDev_boundary"/>
 		<property name="$name" value="个人信用页面"/>
+	</node>
+	<node uin="-tdsqjukh2pvhw4fls452">
+		<property name="$metaclass" value="Class20"/>
+		<property name="stereotype" value="SwDev_boundary"/>
+		<property name="$name" value="注册审核页面"/>
+		<node uin="tq87glkh2pw9gp-idpsnn">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="通过审核"/>
+		</node>
 	</node>
 </nodeSet>

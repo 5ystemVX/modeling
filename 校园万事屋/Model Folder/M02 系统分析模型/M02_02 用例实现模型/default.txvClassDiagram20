@@ -90,5 +90,21 @@
 			<property name="bounds" value="5,5,148,107"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
+		<reference referencedUin="design:view:::V1hexuhkh2ok0qjkq3eee">
+			<property name="bounds" value="5,5,137,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkh2owc8u-j6fhph">
+			<property name="bounds" value="161,-4,137,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkh2pfinwejz9qa">
+			<property name="bounds" value="161,122,152,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkh2pte7ulluw0j">
+			<property name="bounds" value="72,131,167,87"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
 	</view>
 </nodeSet>
